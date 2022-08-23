@@ -54,13 +54,13 @@ body {
   margin-top: -3em;
 }
 
-.schedulePageTitle{
+.generalPageTitle{
   font-size: 80px;
   font-family: 'poppins';
-  line-height: 1px;
-  color: #fff;
+  color: darkgoldenrod;
 }
 
 .gold{
-  color: #FFD700;
+  color: darkgoldenrod;
+  
 }

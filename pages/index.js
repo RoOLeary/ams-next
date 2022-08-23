@@ -7,7 +7,9 @@ import TextVisual from '../components/TextVisual';
 export default function Home() {
   return (
     <Layout>
-     
+     <div className="container px-5 py-24 mx-auto">
+          <h1 className="generalPageTitle">Algarve Music Series</h1>
+      </div>
       <Gallery />
       <PanelGrid />
       <Featured />

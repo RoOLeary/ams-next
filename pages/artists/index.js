@@ -6,7 +6,7 @@ export default function Artists() {
     return(
         <Layout>
             <div className="container px-5 py-24 mx-auto">
-                <h1 className="text-white schedulePageTitle">Artists</h1>
+                <h1 className="generalPageTitle">Artists</h1>
             </div>
             <section className="text-black-600 body-font">
                 <div className="container px-5 py-24 mx-auto">

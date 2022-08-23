@@ -6,7 +6,7 @@ export default function About() {
     return(
         <Layout>
             <div className="container px-5 py-24 mx-auto">
-                <h1 className="text-white schedulePageTitle">About Us</h1>
+                <h1 className="generalPageTitle">About Us</h1>
             </div>
             <TextVisual />
             <br />

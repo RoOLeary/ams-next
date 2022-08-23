@@ -5,7 +5,7 @@ export default function Contact(){
     return(
         <Layout>
             <div className="container px-5 py-24 mx-auto">
-                <h1 className="text-white schedulePageTitle">Contact</h1>
+                <h1 className="generalPageTitle">Contact</h1>
             </div>
             <section className="text-black body-font relative">
                 <div className="absolute inset-0 bg-gray-300">

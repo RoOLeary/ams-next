@@ -6,7 +6,7 @@ export default function Tickets() {
     return(
         <Layout>
             <div className="container px-5 py-24 mx-auto">
-                <h1 className="text-white schedulePageTitle">Tickets</h1>
+                <h1 className="generalPageTitle">Tickets</h1>
             </div>
             <TextVisual />
             <br />
