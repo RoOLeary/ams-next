@@ -1,4 +1,6 @@
 import Layout from './../../components/Layout';
+import Gallery from '../../components/Gallery';
+import PageHeader from '../../components/PageHeader';
 import TextVisual from './../../components/TextVisual';
 
 export default function ArtistSingle() {
@@ -8,12 +10,9 @@ export default function ArtistSingle() {
     `; 
     return(
         <Layout>
-            <div className="container px-5 pt-24 pb-12 mx-auto">
-                <h1 className="generalPageTitle">Isabel Vaz</h1>
-                <p className="leading-relaxed text-lg mb-4" dangerouslySetInnerHTML={{ __html: aboutContent }} />
-            </div>
-            <TextVisual />
+            <PageHeader title="Isabel Vaz" headerContent={aboutContent} />
             <br />
+            <Gallery />
             <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center">
                 <div className="flex flex-col sm:flex-row mt-10">
                     <div className="sm:w-full sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
@@ -22,9 +21,11 @@ export default function ArtistSingle() {
                     </div>
                 </div>
             </div>
+           
             <div className="w-full h-auto border-black bg-white flex justify-end">
                 <img src="https://algarvemusicseries.com/wp-content/uploads/2019/11/music.jpeg" className="relative block w-full h-full object-cover -mt-12" />     
             </div>
+           
         </Layout>
     ) 
 }

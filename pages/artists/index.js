@@ -14,6 +14,7 @@ export default function Artists() {
                     <div className="flex flex-wrap w-full mb-20">
                     <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
                         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-white-900" dangerouslySetInnerHTML={{ __html: dummyTitle }} />
+                        <br />
                         <div className="h-1 w-20 bg-goldenrod"></div>
                     </div>
                     <p className="lg:w-1/2 w-full leading-relaxed text-white-500" dangerouslySetInnerHTML={{ __html: dummy }} />
