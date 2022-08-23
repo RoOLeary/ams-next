@@ -60,7 +60,17 @@ body {
   color: goldenrod;
 }
 
+@media screen and (max-width: 560px) {
+  .generalPageTitle{
+    margin-bottom: 1em; 
+    line-height: 85px;   
+  }
+}
+
 .text-gold, 
 .gold{
   color: goldenrod;
+}
+.bg-goldenrod{
+  background: goldenrod;
 }

@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 const Gallery = () => {
     let content = `Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom. 
     Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.`;
@@ -11,13 +13,21 @@ const Gallery = () => {
                 <div className="flex flex-wrap md:-m-2 -m-1">
                 <div className="flex flex-wrap w-1/2">
                     <div className="md:p-2 p-1 w-1/2">
-                    <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?piano" />
+                        <Link href={'/artists'}>
+                            <a>
+                                <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?piano" />
+                            </a>
+                        </Link>
                     </div>
                     <div className="md:p-2 p-1 w-1/2">
-                    <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?cello" />
+                        <Link href={'/about'}>
+                            <a><img alt="gallery" className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?cello" /></a>
+                        </Link>
                     </div>
                     <div className="md:p-2 p-1 w-full">
-                    <img alt="gallery" className="w-full h-full object-cover object-center block" src="https://source.unsplash.com/500x300/?string-quartet" />
+                        <Link href={'/schedule'}>
+                            <a><img alt="gallery" className="w-full h-full object-cover object-center block" src="https://source.unsplash.com/500x300/?string-quartet" /></a>
+                        </Link>
                     </div>
                 </div>
                 <div className="flex flex-wrap w-1/2">

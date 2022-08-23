@@ -60,7 +60,8 @@ const Schedule = () => {
 
     return(
         <section className="text-white-600 body-font overflow-hidden">
-            <div className="container px-5 py-24 mx-auto">
+            <div className="container px-5 pb-24 mx-auto">
+                <div class="h-1 overflow-hidden mb-8"><div class="h-1 w-20 bg-goldenrod"></div></div>
                 <div className="-my-8 divide-y-2 divide-gray-100">
 
                 {events.length && events.map(({id, category, date, title, excerpt, url}) => {
@@ -74,7 +75,7 @@ const Schedule = () => {
                             <h2 className="text-2xl font-medium text-white-900 title-font mb-2">{title}</h2>
                             <p className="leading-relaxed">{excerpt}</p>
                             <Link href={`schedule/event/${url}`}>
-                                <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
+                                <a className="gold inline-flex items-center mt-4">Learn More
                                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                     <path d="M5 12h14"></path>
                                     <path d="M12 5l7 7-7 7"></path>

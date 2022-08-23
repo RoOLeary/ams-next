@@ -14,6 +14,9 @@ export default function Home() {
       <Gallery />
       <PanelGrid />
       <Featured />
+      <div className="w-full h-auto border-black bg-white flex justify-end">
+          <img src="https://algarvemusicseries.com/wp-content/uploads/2019/11/music.jpeg" className="relative block w-full h-full object-cover -mt-12" />     
+      </div>
       <TextVisual />
       <br />
     </Layout>
