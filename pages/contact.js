@@ -8,7 +8,7 @@ export default function Contact(){
     return(
         <Layout>
             <PageHeader title="Contact Us" headerContent={contactText} />
-            <section className="text-black body-font relative">
+            <section className="text-black mt-24 body-font relative">
                 <div className="absolute inset-0 bg-gray-300">
                     <iframe width="100%" height="100%" frameBorder="0" marginHeight="0" marginWidth="0" title="map" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0algarve+(Algarve%20Music%20Series)&ie=UTF8&t=&z=14&iwloc=B&output=embed" style={{ "filter": "grayscale(1) contrast(1.2) opacity(0.4)" }} ></iframe>
                 </div>

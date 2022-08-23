@@ -7,6 +7,7 @@ export default function SchedulePage() {
     return(
         <Layout>
             <PageHeader title="Schedule" headerContent={scheduleContent} />
+            <br />
             <Schedule />
         </Layout>
     ) 

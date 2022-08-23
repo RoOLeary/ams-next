@@ -5,6 +5,9 @@ const Ticket = (props) => {
             <div className="lg:w-4/5 mx-auto flex flex-wrap">
                 <div className="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
                 <h1 className="text-white text-3xl title-font font-medium mb-4">{props.title ? props.title : 'Piano Concerto'}</h1>
+                <div className="h-1 overflow-hidden pb-8">
+                    <div className="h-1 w-20 bg-goldenrod"></div>
+                </div>
                 <div className="flex mb-4">
                     <a className="flex-grow gold border-b-2 py-2 text-lg px-1">Description</a>
                     <a className="flex-grow border-b-2 border-gray-300 py-2 text-lg px-1">Details</a>
@@ -20,7 +23,7 @@ const Ticket = (props) => {
                     <button className="flex ml-auto text-white bg-goldenrod border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Buy Now</button>
                 </div>
                 </div>
-                <img alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://source.unsplash.com/400x400/?piano" />
+                <img alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://source.unsplash.com/400x200/?piano" />
             </div>
             </div>
         </section>
