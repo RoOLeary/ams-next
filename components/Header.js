@@ -6,7 +6,7 @@ const Header = () => {
         <header className="text-white body-font">
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <Link href={'/'}><a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-                <img src="./algarvemusicseries.jpeg" height={75} width={75} />
+                <img src="./../algarvemusicseries.jpeg" height={75} width={75} />
                 {/* <span className="ml-3 text-xl">Algarve Music Series</span> */}
                 </a></Link>
 

@@ -9,6 +9,7 @@ export default function Home() {
     <Layout>
      <div className="container px-5 py-24 mx-auto">
           <h1 className="generalPageTitle text-center">Algarve Music Series</h1>
+          <h3 className="text-center ">7th Edition | October 2022 | Algarve, Portugal</h3>
       </div>
       <Gallery />
       <PanelGrid />
