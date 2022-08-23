@@ -2,6 +2,7 @@ import Layout from './../components/Layout';
 import Gallery from './../components/Gallery';
 import PanelGrid from './../components/PanelGrid';
 import Featured from '../components/Featured';
+import Signup from '../components/Signup';
 import TextVisual from '../components/TextVisual';
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       </div>
       <Gallery />
       <PanelGrid />
+      <Signup />
       <Featured />
       <div className="w-full h-auto border-black bg-white flex justify-end">
           <img src="https://algarvemusicseries.com/wp-content/uploads/2019/11/music.jpeg" className="relative block w-full h-full object-cover -mt-12" />     
