@@ -7,6 +7,7 @@ export default function MasterClasses() {
     return(
         <Layout>
             <PageHeader title="Master Classes" headerContent={scheduleContent} />
+            <br />
             <Schedule />
         </Layout>
     ) 

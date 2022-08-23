@@ -23,7 +23,7 @@ const Ticket = (props) => {
                     <button className="flex ml-auto text-white bg-goldenrod border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Buy Now</button>
                 </div>
                 </div>
-                <img alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://source.unsplash.com/400x200/?piano" />
+                <img alt="ecommerce" className="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded" src="https://source.unsplash.com/200x200/?piano" />
             </div>
             </div>
         </section>
