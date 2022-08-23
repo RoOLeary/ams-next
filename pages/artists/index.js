@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Layout from './../../components/Layout';
 
 export default function Artists() {
@@ -22,7 +23,7 @@ export default function Artists() {
                         <div className="bg-gray-100 p-6 rounded-lg">
                         <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
                         <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">SUBTITLE</h3>
-                        <h2 className="text-lg text-black font-medium title-font mb-4">Chichen Itza</h2>
+                        <Link href={`/artists/chicen-itza`}><a><h2 className="text-lg text-black font-medium title-font mb-4">Chichen Itza</h2></a></Link>
                         <p className="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
                         </div>
                     </div>
