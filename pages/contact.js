@@ -1,4 +1,5 @@
 import Layout from './../components/Layout';
+import PageHeader from '../components/PageHeader';
 import TextVisual from './../components/TextVisual';
 
 export default function Contact(){
@@ -6,13 +7,7 @@ export default function Contact(){
 
     return(
         <Layout>
-            <div className="container px-5 py-24 mx-auto">
-                <h1 className="generalPageTitle">Contact</h1>
-                <div className="h-1 overflow-hidden pb-8">
-                    <div className="h-1 w-20 bg-goldenrod"></div>
-                </div>
-                <p className="leading-relaxed text-lg mb-4" dangerouslySetInnerHTML={{ __html: contactText }} />
-            </div>
+            <PageHeader title="Contact Us" headerContent={contactText} />
             <section className="text-black body-font relative">
                 <div className="absolute inset-0 bg-gray-300">
                     <iframe width="100%" height="100%" frameBorder="0" marginHeight="0" marginWidth="0" title="map" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0algarve+(Algarve%20Music%20Series)&ie=UTF8&t=&z=14&iwloc=B&output=embed" style={{ "filter": "grayscale(1) contrast(1.2) opacity(0.4)" }} ></iframe>

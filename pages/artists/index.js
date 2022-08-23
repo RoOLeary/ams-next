@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Layout from './../../components/Layout';
+import PageHeader from '../../components/PageHeader';
 
 export default function Artists() {
     let dummyTitle = `This Edition's Performers`;
@@ -7,13 +8,7 @@ export default function Artists() {
     Cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag`;
     return(
         <Layout>
-            <div className="container px-5 pt-24 mx-auto">
-                <h1 className="generalPageTitle">Artists</h1>
-                <div className="h-1 overflow-hidden pb-8">
-                    <div className="h-1 w-20 bg-goldenrod"></div>
-                </div>
-                <p className="leading-relaxed text-lg mb-4" dangerouslySetInnerHTML={{ __html: dummy }} />
-            </div>
+            <PageHeader title="Artists" headerContent={dummy} />
             <section className="text-black-600 body-font">
                 <div className="container px-5 py-24 mx-auto">
                     <div className="flex flex-wrap w-full mb-20">
