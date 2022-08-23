@@ -61,7 +61,7 @@ const Schedule = () => {
     return(
         <section className="text-white-600 body-font overflow-hidden">
             <div className="container px-5 pb-24 mx-auto">
-                <div class="h-1 overflow-hidden mb-8"><div class="h-1 w-20 bg-goldenrod"></div></div>
+                <div className="h-1 overflow-hidden mb-8"><div className="h-1 w-20 bg-goldenrod"></div></div>
                 <div className="-my-8 divide-y-2 divide-gray-100">
 
                 {events.length && events.map(({id, category, date, title, excerpt, url}) => {
