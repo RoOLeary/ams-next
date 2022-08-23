@@ -1,216 +1,90 @@
+
+
+
+import Link from 'next/link'
+
 const Schedule = () => {
+
+    let events = [
+        {
+            "id": 1,
+            "category": "Chamber",
+            "date": "23-09-22",
+            "title":  "Chamber Music Exposition",
+            "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
+            "url": '/page.html'
+        },
+        {
+            "id": 2,
+            "category": "Quartet",
+            "date": "23-09-22",
+            "title":  "Qaurtet Exposition",
+            "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
+            "url": '/page.html'
+        },
+        {
+            "id": 3,
+            "category": "Vocalist",
+            "date": "23-09-22",
+            "title":  "Vocal Music Exposition",
+            "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
+            "url": '/page.html'
+        },
+        {
+            "id": 4,
+            "category": "Fusion",
+            "date": "23-09-22",
+            "title":  "Classic and Metal",
+            "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
+            "url": '/page.html'
+        },
+        {
+            "id": 5,
+            "category": "Piano",
+            "date": "23-09-22",
+            "title":  "Piano Recital",
+            "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
+            "url": '/page.html'
+        },
+        {
+            "id": 6,
+            "category": "Drums",
+            "date": "23-09-22",
+            "title":  "Percussion",
+            "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
+            "url": '/page.html'
+        }
+
+    ]
+
+
     return(
         <section className="text-white-600 body-font overflow-hidden">
             <div className="container px-5 py-24 mx-auto">
                 <div className="-my-8 divide-y-2 divide-gray-100">
-                <div className="py-8 flex flex-wrap md:flex-nowrap">
-                    <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <span className="font-semibold title-font text-white-700">CATEGORY</span>
-                    <span className="mt-1 text-white-500 text-sm">12 Jun 2019</span>
-                    </div>
-                    <div className="md:flex-grow">
-                    <h2 className="text-2xl font-medium text-white-900 title-font mb-2">Bitters hashtag waistcoat fashion axe chia unicorn</h2>
-                    <p className="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                    <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
-                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
-                    </div>
-                </div>
-                <div className="py-8 flex flex-wrap md:flex-nowrap">
-                    <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <span className="font-semibold title-font text-white-700">CATEGORY</span>
-                    <span className="mt-1 text-white-500 text-sm">12 Jun 2019</span>
-                    </div>
-                    <div className="md:flex-grow">
-                    <h2 className="text-2xl font-medium text-white-900 title-font mb-2">Meditation bushwick direct trade taxidermy shaman</h2>
-                    <p className="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                    <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
-                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
-                    </div>
-                </div>
-                <div className="py-8 flex flex-wrap md:flex-nowrap">
-                    <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <span className="font-semibold title-font text-white-700">CATEGORY</span>
-                    <span className="text-sm text-white-500">12 Jun 2019</span>
-                    </div>
-                    <div className="md:flex-grow">
-                    <h2 className="text-2xl font-medium text-white-900 title-font mb-2">Woke master cleanse drinking vinegar salvia</h2>
-                    <p className="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                    <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
-                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
-                    </div>
-                </div>
-                <div className="py-8 flex flex-wrap md:flex-nowrap">
-                    <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <span className="font-semibold title-font text-white-700">CATEGORY</span>
-                    <span className="text-sm text-white-500">12 Jun 2019</span>
-                    </div>
-                    <div className="md:flex-grow">
-                    <h2 className="text-2xl font-medium text-white-900 title-font mb-2">Woke master cleanse drinking vinegar salvia</h2>
-                    <p className="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                    <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
-                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
-                    </div>
-                </div>
-                <div className="py-8 flex flex-wrap md:flex-nowrap">
-                    <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <span className="font-semibold title-font text-white-700">CATEGORY</span>
-                    <span className="text-sm text-white-500">12 Jun 2019</span>
-                    </div>
-                    <div className="md:flex-grow">
-                    <h2 className="text-2xl font-medium text-white-900 title-font mb-2">Woke master cleanse drinking vinegar salvia</h2>
-                    <p className="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                    <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
-                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
-                    </div>
-                </div>
-                <div className="py-8 flex flex-wrap md:flex-nowrap">
-                    <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <span className="font-semibold title-font text-white-700">CATEGORY</span>
-                    <span className="text-sm text-white-500">12 Jun 2019</span>
-                    </div>
-                    <div className="md:flex-grow">
-                    <h2 className="text-2xl font-medium text-white-900 title-font mb-2">Woke master cleanse drinking vinegar salvia</h2>
-                    <p className="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                    <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
-                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
-                    </div>
-                </div>
-                <div className="py-8 flex flex-wrap md:flex-nowrap">
-                    <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <span className="font-semibold title-font text-white-700">CATEGORY</span>
-                    <span className="text-sm text-white-500">12 Jun 2019</span>
-                    </div>
-                    <div className="md:flex-grow">
-                    <h2 className="text-2xl font-medium text-white-900 title-font mb-2">Woke master cleanse drinking vinegar salvia</h2>
-                    <p className="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                    <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
-                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
-                    </div>
-                </div>
-                <div className="py-8 flex flex-wrap md:flex-nowrap">
-                    <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <span className="font-semibold title-font text-white-700">CATEGORY</span>
-                    <span className="text-sm text-white-500">12 Jun 2019</span>
-                    </div>
-                    <div className="md:flex-grow">
-                    <h2 className="text-2xl font-medium text-white-900 title-font mb-2">Woke master cleanse drinking vinegar salvia</h2>
-                    <p className="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                    <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
-                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
-                    </div>
-                </div>
-                <div className="py-8 flex flex-wrap md:flex-nowrap">
-                    <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <span className="font-semibold title-font text-white-700">CATEGORY</span>
-                    <span className="text-sm text-white-500">12 Jun 2019</span>
-                    </div>
-                    <div className="md:flex-grow">
-                    <h2 className="text-2xl font-medium text-white-900 title-font mb-2">Woke master cleanse drinking vinegar salvia</h2>
-                    <p className="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                    <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
-                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
-                    </div>
-                </div>
-                <div className="py-8 flex flex-wrap md:flex-nowrap">
-                    <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <span className="font-semibold title-font text-white-700">CATEGORY</span>
-                    <span className="text-sm text-white-500">12 Jun 2019</span>
-                    </div>
-                    <div className="md:flex-grow">
-                    <h2 className="text-2xl font-medium text-white-900 title-font mb-2">Woke master cleanse drinking vinegar salvia</h2>
-                    <p className="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                    <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
-                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
-                    </div>
-                </div>
-                <div className="py-8 flex flex-wrap md:flex-nowrap">
-                    <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <span className="font-semibold title-font text-white-700">CATEGORY</span>
-                    <span className="text-sm text-white-500">12 Jun 2019</span>
-                    </div>
-                    <div className="md:flex-grow">
-                    <h2 className="text-2xl font-medium text-white-900 title-font mb-2">Woke master cleanse drinking vinegar salvia</h2>
-                    <p className="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                    <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
-                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
-                    </div>
-                </div>
-                <div className="py-8 flex flex-wrap md:flex-nowrap">
-                    <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <span className="font-semibold title-font text-white-700">CATEGORY</span>
-                    <span className="text-sm text-white-500">12 Jun 2019</span>
-                    </div>
-                    <div className="md:flex-grow">
-                    <h2 className="text-2xl font-medium text-white-900 title-font mb-2">Woke master cleanse drinking vinegar salvia</h2>
-                    <p className="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                    <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
-                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
-                    </div>
-                </div>
-                <div className="py-8 flex flex-wrap md:flex-nowrap">
-                    <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-                    <span className="font-semibold title-font text-white-700">CATEGORY</span>
-                    <span className="text-sm text-white-500">12 Jun 2019</span>
-                    </div>
-                    <div className="md:flex-grow">
-                    <h2 className="text-2xl font-medium text-white-900 title-font mb-2">Woke master cleanse drinking vinegar salvia</h2>
-                    <p className="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
-                    <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
-                        <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M5 12h14"></path>
-                        <path d="M12 5l7 7-7 7"></path>
-                        </svg>
-                    </a>
-                    </div>
-                </div>
+
+                {events.length && events.map(({id, category, date, title, excerpt, url}) => {
+                    return(
+                        <div className="py-8 flex flex-wrap md:flex-nowrap" key={id}>
+                            <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                            <span className="font-semibold title-font text-white-700">{category}</span>
+                            <span className="mt-1 text-white-500 text-sm">{date}</span>
+                            </div>
+                            <div className="md:flex-grow">
+                            <h2 className="text-2xl font-medium text-white-900 title-font mb-2">{title}</h2>
+                            <p className="leading-relaxed">{excerpt}</p>
+                            <Link href={`events/${url}`}>
+                                <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
+                                    <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                            </Link>
+                            </div>
+                        </div>
+                    )
+                })}
                 
                 </div>
             </div>
