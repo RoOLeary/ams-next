@@ -1,5 +1,5 @@
 import Layout from './../components/Layout';
-import TextVisual from './../components/TextVisual';
+import Ticket from './../components/Ticket';
 
 export default function Tickets() {
     let ticketContent = `Meggings portland fingerstache lyft, post-ironic fixie man bun banh mi umami everyday carry hexagon locavore direct trade art party. Locavore small batch listicle gastropub farm-to-table lumbersexual salvia messenger bag. Coloring book flannel truffaut craft beer drinking vinegar sartorial, disrupt fashion axe normcore meh butcher. Portland 90's scenester vexillologist forage post-ironic asymmetrical, chartreuse disrupt butcher paleo intelligentsia pabst before they sold out four loko. 3 wolf moon brooklyn.`;
@@ -8,7 +8,8 @@ export default function Tickets() {
             <div className="container px-5 py-24 mx-auto">
                 <h1 className="generalPageTitle">Tickets</h1>
             </div>
-            <TextVisual />
+            <Ticket />
+            <Ticket title={'An evening of Chamber Music'}/>
             <br />
             <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center">
                 <div className="flex flex-col sm:flex-row mt-10">

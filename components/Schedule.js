@@ -12,7 +12,7 @@ const Schedule = () => {
             "date": "23-09-22",
             "title":  "Chamber Music Exposition",
             "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
-            "url": '/page.html'
+            "url": '/chamber-music-exposition'
         },
         {
             "id": 2,
@@ -20,7 +20,7 @@ const Schedule = () => {
             "date": "23-09-22",
             "title":  "Qaurtet Exposition",
             "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
-            "url": '/page.html'
+            "url": '/quartet-exposition'
         },
         {
             "id": 3,
@@ -73,7 +73,7 @@ const Schedule = () => {
                             <div className="md:flex-grow">
                             <h2 className="text-2xl font-medium text-white-900 title-font mb-2">{title}</h2>
                             <p className="leading-relaxed">{excerpt}</p>
-                            <Link href={`events/${url}`}>
+                            <Link href={`schedule/event/${url}`}>
                                 <a className="text-indigo-500 inline-flex items-center mt-4">Learn More
                                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                     <path d="M5 12h14"></path>
