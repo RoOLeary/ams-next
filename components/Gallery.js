@@ -1,6 +1,29 @@
 import Link from 'next/link';
+import { useScroll, useTransform, motion } from 'framer-motion';
+import imageLoader from './../imageLoader';
+import Image from 'next/image';
+
+const variants = {
+    visible: { opacity: 1, scale: 1, y: 0 },
+    hidden: {
+      opacity: 0,
+      scale: 0.65,
+      y: 50
+    }
+};
+
 
 const Gallery = () => {
+
+    const { scrollY } = useScroll();
+    const y1 = useTransform(scrollY, [0, 300], [0, 200]);
+    const y2 = useTransform(scrollY, [0, 300], [0, -100]);
+    const y3 = useTransform(scrollY, [0, 300], [0, -50]);
+    const y4 = useTransform(scrollY, [0, 750], [0, -250]);
+    const y5 = useTransform(scrollY, [0, 400], [0, -250]);
+    const x1 = useTransform(scrollY, [500, 0], [-250, 0]);
+    const x2 = useTransform(scrollY, [750, 0], [150, 0]);
+
     let content = `Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom. 
     Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.`;
     return(
@@ -15,30 +38,30 @@ const Gallery = () => {
                     <div className="md:p-2 p-1 w-1/2">
                         <Link href={'/artists'}>
                             <a>
-                                <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?piano" />
+                                <Image loader={imageLoader} alt="gallery" className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?piano" width={500} height={300} />
                             </a>
                         </Link>
                     </div>
                     <div className="md:p-2 p-1 w-1/2">
                         <Link href={'/about'}>
-                            <a><img alt="gallery" className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?cello" /></a>
+                            <a><Image loader={imageLoader} className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?cello" width={500} height={300} /></a>
                         </Link>
                     </div>
                     <div className="md:p-2 p-1 w-full">
                         <Link href={'/schedule'}>
-                            <a><img alt="gallery" className="w-full h-full object-cover object-center block" src="https://source.unsplash.com/500x300/?string-quartet" /></a>
+                            <a><Image loader={imageLoader} className="w-full h-full object-cover object-center block" src="https://source.unsplash.com/500x300/?string-quartet" width={620} height={350} /></a>
                         </Link>
                     </div>
                 </div>
                 <div className="flex flex-wrap w-1/2">
                     <div className="md:p-2 p-1 w-full">
-                    <img alt="gallery" className="w-full h-full object-cover object-center block" src="https://source.unsplash.com/500x300/?algarve" />
+                    <a><Image loader={imageLoader} className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?algarve" width={620} height={350} /></a>
                     </div>
                     <div className="md:p-2 p-1 w-1/2">
-                    <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?violin" />
+                    <a><Image loader={imageLoader} className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?violin" width={500} height={300} /></a>
                     </div>
                     <div className="md:p-2 p-1 w-1/2">
-                    <img alt="gallery" className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?concert" />
+                    <a><Image loader={imageLoader} className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?concert" width={500} height={300} /></a>
                     </div>
                 </div>
                 </div>

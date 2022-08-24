@@ -73,7 +73,7 @@ const Schedule = () => {
                             <span className="mt-1 text-white-500 text-sm">{date}</span>
                             </div>
                             <div className="md:flex-grow">
-                            <h2 className="text-2xl font-medium text-white-900 title-font mb-2">{title}</h2>
+                            <Link href={`schedule/event/${url}`}><a><h2 className="text-2xl font-medium gold title-font mb-2">{title}</h2></a></Link>
                             <p className="leading-relaxed">{excerpt}</p>
                             <Link href={`schedule/event/${url}`}>
                                 <a className="gold inline-flex items-center mt-4">Learn More
