@@ -7,11 +7,11 @@ const Faq = () => {
     let faqs = [
       {
           "question": "What is the meaning of this?",
-          "answer": "The kids, they don't got no respect no more!"
+          "answer": "Portland 90's scenester vexillologist forage post-ironic asymmetrical, chartreuse disrupt butcher paleo intelligentsia pabst before they sold out four loko. 3 wolf moon brooklyn."
       },
       {
         "question": "Does anyone know how to get to the bright side?",
-        "answer": "Google it!"
+        "answer": "Coloring book flannel truffaut craft beer drinking vinegar sartorial, disrupt fashion axe normcore meh butcher."
       }
   ]
 
