@@ -1,6 +1,7 @@
 import Layout from './../components/Layout';
 import PageHeader from '../components/PageHeader';
 import TextVisual from './../components/TextVisual';
+import Faq from './../components/Faq';
 
 export default function About() {
     let aboutContent = `Meggings portland fingerstache lyft, post-ironic fixie man bun banh mi umami everyday carry hexagon locavore direct trade art party. Locavore small batch listicle gastropub farm-to-table lumbersexual salvia messenger bag. Coloring book flannel truffaut craft beer drinking vinegar sartorial, disrupt fashion axe normcore meh butcher. Portland 90's scenester vexillologist forage post-ironic asymmetrical, chartreuse disrupt butcher paleo intelligentsia pabst before they sold out four loko. 3 wolf moon brooklyn.
@@ -13,6 +14,7 @@ export default function About() {
             <PageHeader title="About Us" headerContent={aboutContent} />
             <TextVisual />
             <br />
+            <Faq />
             <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center">
                 <div className="flex flex-col sm:flex-row mt-10">
                     <div className="sm:w-full sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">

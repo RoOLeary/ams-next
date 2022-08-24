@@ -60,9 +60,9 @@ const Nav = (): JSX.Element => {
          */}
             {links.map(({ name, href }) => (
                 
-                <>
-                <Link href={href}>
-                    <a className={router.pathname == href ? "mr-5 gold" : "mr-5"}>
+                
+                <Link key={name} href={href}>
+                    <a className={router.pathname == href ? "mr-5 nav-hightlight" : "mr-5"}>
                         {name}
                         {isActiveLink(href, router.pathname) && (
                             <motion.div
@@ -73,7 +73,7 @@ const Nav = (): JSX.Element => {
                         )}
                     </a>
                 </Link>
-                </>
+               
             ))}
         </nav>
         </AnimateSharedLayout>

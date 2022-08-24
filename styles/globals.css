@@ -74,7 +74,10 @@ body {
 .bg-goldenrod{
   background: goldenrod;
 }
-
+.nav-hightlight{
+  color: goldenrod;
+  transition: all 250ms easing;
+}
 .transition-opacity{
   transition-property: opacity;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
