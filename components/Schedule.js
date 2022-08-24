@@ -12,7 +12,7 @@ const Schedule = () => {
             "date": "23-09-22",
             "title":  "Chamber Music Exposition",
             "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
-            "url": '/chamber-music-exposition'
+            "url": 'chamber-music-exposition'
         },
         {
             "id": 2,
@@ -20,7 +20,7 @@ const Schedule = () => {
             "date": "23-09-22",
             "title":  "Qaurtet Exposition",
             "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
-            "url": '/quartet-exposition'
+            "url": 'quartet-exposition'
         },
         {
             "id": 3,
@@ -28,7 +28,7 @@ const Schedule = () => {
             "date": "23-09-22",
             "title":  "Vocal Music Exposition",
             "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
-            "url": '/page.html'
+            "url": 'page.html'
         },
         {
             "id": 4,
@@ -36,7 +36,7 @@ const Schedule = () => {
             "date": "23-09-22",
             "title":  "Classic and Metal",
             "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
-            "url": '/page.html'
+            "url": 'page'
         },
         {
             "id": 5,
@@ -44,7 +44,7 @@ const Schedule = () => {
             "date": "23-09-22",
             "title":  "Piano Recital",
             "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
-            "url": '/page.html'
+            "url": 'page'
         },
         {
             "id": 6,
@@ -52,7 +52,7 @@ const Schedule = () => {
             "date": "23-09-22",
             "title":  "Percussion",
             "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
-            "url": '/page.html'
+            "url": 'page'
         }
 
     ]
