@@ -11,7 +11,7 @@ const Faq = () => {
       },
       {
         "question": "Does anyone know how to get to the bright side?",
-        "answer": "Smoke some more weed."
+        "answer": "Google it!"
       }
   ]
 
