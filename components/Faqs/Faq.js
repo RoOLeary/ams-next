@@ -22,6 +22,7 @@ const Faq = () => {
               let idx = ++i; 
               return (
                 <FaqLayout 
+                    key={i}
                     title={question}
                     index={idx}
                     activeIndex={activeIndex}
