@@ -1,7 +1,10 @@
 import Link from 'next/link';
 import Nav from './Nav';
 
-const Header = () => {
+
+
+
+const Header = (): JSX.Element => {
     return(
         <header className="text-white body-font">
             <div className="container mx-auto flex flex-wrap p-5 md:flex-row items-center justify-between">
