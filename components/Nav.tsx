@@ -73,7 +73,7 @@ const Nav = (): JSX.Element => {
       <nav className='flex items-center flex-wrap p-3 '>
         <button
             className=' inline-flex p-3 hover:bg-gray-200 rounded-full lg:hidden text-white ml-auto hover:text-white outline-none'
-            onClick={handleClick}
+            onClick={() => handleClick()}
         >
             <svg
             className='w-6 h-6'
@@ -90,8 +90,8 @@ const Nav = (): JSX.Element => {
             />
             </svg>
         </button>
-        
-        <div className={`${active ? 'hidden' : ''} w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
+
+        <div className={`${active ? '' : 'hidden'} w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
           <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
           {links.map(({ name, href }) => (
                 
