@@ -55,8 +55,11 @@ const Gallery = () => {
                 </div>
                 <div className="flex flex-wrap w-1/2">
                     <div className="md:p-2 p-1 w-full">
-                    <a><Image loader={imageLoader} className="w-full h-full object-cover object-center block" src="https://source.unsplash.com/850x400/?algarve" width={850} height={400} /></a>
+                        <Link href={'/masterclasses'}>
+                            <a><Image loader={imageLoader} className="w-full h-full object-cover object-center block" src="https://source.unsplash.com/850x400/?algarve" width={850} height={400} /></a>
+                        </Link>
                     </div>
+                    
                     <div className="md:p-2 p-1 w-1/2">
                     <a><Image loader={imageLoader} className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?violin" width={500} height={300} /></a>
                     </div>
