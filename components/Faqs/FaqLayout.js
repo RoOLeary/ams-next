@@ -6,15 +6,21 @@ const FaqLayout = ({ title, children, index, activeIndex, setActiveIndex }) => {
 
     return (
         <>
-            <div onClick={() => handleSetIndex(index)} className='flex w-1/2 justify-between p-5 mt-2 bg-goldenrod'>
+            <div onClick={() => handleSetIndex(index)} className='flex w-1/2 justify-between p-5 mt-2 bg-goldenrod hover:cursor-pointer'>
                 <div className='flex'>
                     <h3 className='text-white'>{title}</h3>
                 </div>
                 <div className="flex items-center justify-center">
                     {
                     (activeIndex === index) 
-                    ? '^'
-                    : 'v'
+                    ? <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+                    </svg>
+                  
+                    : <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                    </svg>
+                  
                     }
                 </div>
             </div>

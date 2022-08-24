@@ -18,20 +18,22 @@ const Faq = () => {
   return (
     <section className="text-white-600 body-font">
       <div className="container px-5 pb-24 mx-auto">
-            {faqs.map(({ question, answer }, i) => {
-              let idx = ++i; 
-              return (
-                <FaqLayout 
-                    key={i}
-                    title={question}
-                    index={idx}
-                    activeIndex={activeIndex}
-                    setActiveIndex={setActiveIndex}
-                  >
-                  {answer}  
-                </FaqLayout>
-              )
-            })}
+          <div className="accordionContainer">
+              {faqs.map(({ question, answer }, i) => {
+                let idx = ++i; 
+                return (
+                  <FaqLayout 
+                      key={i}
+                      title={question}
+                      index={idx}
+                      activeIndex={activeIndex}
+                      setActiveIndex={setActiveIndex}
+                    >
+                    {answer}  
+                  </FaqLayout>
+                )
+              })}
+            </div>
         </div>
     </section>
   );

@@ -7,8 +7,12 @@ export default function Tickets() {
     return(
         <Layout>
             <PageHeader title="Tickets" headerContent={ticketContent} />
-            <Ticket />
-            <Ticket title={'An evening of Chamber Music'}/>
+            <section className="text-white-600 body-font">
+            <div className="container pt-8 px-5 pb-24 mx-auto md:flex">
+                <Ticket />
+                <Ticket title={'An evening of Chamber Music'}/>
+            </div>
+            </section>
             <br />
             <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center">
                 <div className="flex flex-col sm:flex-row mt-10">

@@ -86,3 +86,15 @@ body {
     border-top: 1px solid goldenrod;
   }
 }
+
+
+/* Accordion Styles
+
+margin: 0 auto;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+
+
+*/

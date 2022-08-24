@@ -22,7 +22,7 @@ export default function Artists() {
                     <div className="flex flex-wrap -m-4">
                     <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="bg-gray-100">
-                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
+                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?violinist" alt="content" />
                                 <div className="px-6 pb-6">
                                     <h3 className="tracking-widest gold text-xs font-medium title-font">SUBTITLE</h3>
                                     <Link href={`/artists/chicen-itza`}><a className="gold hover:text-red"><h2 className="text-lg text-black font-medium title-font mb-4">Isabel Vaz</h2></a></Link>
@@ -32,7 +32,7 @@ export default function Artists() {
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="bg-gray-100">
-                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
+                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?cellist" alt="content" />
                                 <div className="px-6 pb-6">
                                     <h3 className="tracking-widest gold text-xs font-medium title-font">SUBTITLE</h3>
                                     <Link href={`/artists/chicen-itza`}><a className="gold hover:text-red"><h2 className="text-lg text-black font-medium title-font mb-4">Vasco Dantes</h2></a></Link>
@@ -42,7 +42,7 @@ export default function Artists() {
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="bg-gray-100">
-                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
+                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?flutist" alt="content" />
                                 <div className="px-6 pb-6">
                                     <h3 className="tracking-widest gold text-xs font-medium title-font">SUBTITLE</h3>
                                     <Link href={`/artists/chicen-itza`}><a className="gold hover:text-red"><h2 className="text-lg text-black font-medium title-font mb-4">Natahsha Grujic</h2></a></Link>
@@ -52,7 +52,7 @@ export default function Artists() {
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="bg-gray-100">
-                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
+                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?percussionist" alt="content" />
                                 <div className="px-6 pb-6">
                                     <h3 className="tracking-widest gold text-xs font-medium title-font">SUBTITLE</h3>
                                     <Link href={`/artists/chicen-itza`}><a className="gold hover:text-red"><h2 className="text-lg text-black font-medium title-font mb-4">Ketevan Roninishvilli</h2></a></Link>
@@ -62,7 +62,7 @@ export default function Artists() {
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="bg-gray-100">
-                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
+                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?clarinet" alt="content" />
                                 <div className="px-6 pb-6">
                                     <h3 className="tracking-widest gold text-xs font-medium title-font">SUBTITLE</h3>
                                     <Link href={`/artists/chicen-itza`}><a className="gold hover:text-red"><h2 className="text-lg text-black font-medium title-font mb-4">Chichen Itza</h2></a></Link>
@@ -72,7 +72,7 @@ export default function Artists() {
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="bg-gray-100">
-                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
+                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?trumpet" alt="content" />
                                 <div className="px-6 pb-6">
                                     <h3 className="tracking-widest gold text-xs font-medium title-font">SUBTITLE</h3>
                                     <Link href={`/artists/chicen-itza`}><a className="gold hover:text-red"><h2 className="text-lg text-black font-medium title-font mb-4">Chichen Itza</h2></a></Link>
@@ -82,7 +82,7 @@ export default function Artists() {
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="bg-gray-100">
-                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
+                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?accordion" alt="content" />
                                 <div className="px-6 pb-6">
                                     <h3 className="tracking-widest gold text-xs font-medium title-font">SUBTITLE</h3>
                                     <Link href={`/artists/chicen-itza`}><a className="gold hover:text-red"><h2 className="text-lg text-black font-medium title-font mb-4">Chichen Itza</h2></a></Link>
@@ -92,7 +92,7 @@ export default function Artists() {
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="bg-gray-100">
-                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
+                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?violinist" alt="content" />
                                 <div className="px-6 pb-6">
                                     <h3 className="tracking-widest gold text-xs font-medium title-font">SUBTITLE</h3>
                                     <Link href={`/artists/chicen-itza`}><a className="gold hover:text-red"><h2 className="text-lg text-black font-medium title-font mb-4">Chichen Itza</h2></a></Link>
@@ -102,7 +102,7 @@ export default function Artists() {
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="bg-gray-100">
-                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
+                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?cellist" alt="content" />
                                 <div className="px-6 pb-6">
                                     <h3 className="tracking-widest gold text-xs font-medium title-font">SUBTITLE</h3>
                                     <Link href={`/artists/chicen-itza`}><a className="gold hover:text-red"><h2 className="text-lg text-black font-medium title-font mb-4">Chichen Itza</h2></a></Link>
@@ -112,7 +112,7 @@ export default function Artists() {
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="bg-gray-100">
-                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
+                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?singer" alt="content" />
                                 <div className="px-6 pb-6">
                                     <h3 className="tracking-widest gold text-xs font-medium title-font">SUBTITLE</h3>
                                     <Link href={`/artists/chicen-itza`}><a className="gold hover:text-red"><h2 className="text-lg text-black font-medium title-font mb-4">Chichen Itza</h2></a></Link>
@@ -122,7 +122,7 @@ export default function Artists() {
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="bg-gray-100">
-                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
+                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?opera" alt="content" />
                                 <div className="px-6 pb-6">
                                     <h3 className="tracking-widest gold text-xs font-medium title-font">SUBTITLE</h3>
                                     <Link href={`/artists/chicen-itza`}><a className="gold hover:text-red"><h2 className="text-lg text-black font-medium title-font mb-4">Chichen Itza</h2></a></Link>
@@ -132,7 +132,7 @@ export default function Artists() {
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="bg-gray-100">
-                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
+                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?musician" alt="content" />
                                 <div className="px-6 pb-6">
                                     <h3 className="tracking-widest gold text-xs font-medium title-font">SUBTITLE</h3>
                                     <Link href={`/artists/chicen-itza`}><a className="gold hover:text-red"><h2 className="text-lg text-black font-medium title-font mb-4">Chichen Itza</h2></a></Link>
@@ -143,7 +143,7 @@ export default function Artists() {
                        
                         <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="bg-gray-100">
-                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
+                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?musician" alt="content" />
                                 <div className="px-6 pb-6">
                                     <h3 className="tracking-widest gold text-xs font-medium title-font">SUBTITLE</h3>
                                     <Link href={`/artists/chicen-itza`}><a className="gold hover:text-red"><h2 className="text-lg text-black font-medium title-font mb-4">Chichen Itza</h2></a></Link>
@@ -153,7 +153,7 @@ export default function Artists() {
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="bg-gray-100">
-                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
+                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?musician" alt="content" />
                                 <div className="px-6 pb-6">
                                     <h3 className="tracking-widest gold text-xs font-medium title-font">SUBTITLE</h3>
                                     <Link href={`/artists/chicen-itza`}><a className="gold hover:text-red"><h2 className="text-lg text-black font-medium title-font mb-4">Chichen Itza</h2></a></Link>
@@ -163,7 +163,7 @@ export default function Artists() {
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="bg-gray-100">
-                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
+                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?musician" alt="content" />
                                 <div className="px-6 pb-6">
                                     <h3 className="tracking-widest gold text-xs font-medium title-font">SUBTITLE</h3>
                                     <Link href={`/artists/chicen-itza`}><a className="gold hover:text-red"><h2 className="text-lg text-black font-medium title-font mb-4">Chichen Itza</h2></a></Link>
@@ -173,7 +173,7 @@ export default function Artists() {
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="bg-gray-100">
-                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content" />
+                            <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?musician" alt="content" />
                                 <div className="px-6 pb-6">
                                     <h3 className="tracking-widest gold text-xs font-medium title-font">SUBTITLE</h3>
                                     <Link href={`/artists/chicen-itza`}><a className="gold hover:text-red"><h2 className="text-lg text-black font-medium title-font mb-4">Chichen Itza</h2></a></Link>
