@@ -19,7 +19,7 @@ const Featured = () => {
                     <div className="h-64 overflow-hidden">
                     <img alt="content" className="object-cover object-center h-full w-full" src="https://source.unsplash.com/600x450/?cello?music" />
                     </div>
-                    <h2 className="text-xl font-medium title-font gold mt-5">Isabel Vaz</h2>
+                    <Link href={'artists/isabel-vaz'}><a><h2 className="text-xl font-medium title-font gold mt-5">Isabel Vaz</h2></a></Link>
                     <p className="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
                     <Link href={'artists/isabel-vaz'}><a className="gold inline-flex items-center mt-3">Learn More
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
