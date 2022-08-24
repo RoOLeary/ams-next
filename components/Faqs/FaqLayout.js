@@ -6,9 +6,9 @@ const FaqLayout = ({ title, children, index, activeIndex, setActiveIndex }) => {
 
     return (
         <>
-            <div onClick={() => handleSetIndex(index)} className='flex w-1/2 justify-between p-2 mt-2 bg-gray-400'>
+            <div onClick={() => handleSetIndex(index)} className='flex w-1/2 justify-between p-5 mt-2 bg-goldenrod'>
                 <div className='flex'>
-                    <h3 className='text-white font-bold'>{title}</h3>
+                    <h3 className='text-white'>{title}</h3>
                 </div>
                 <div className="flex items-center justify-center">
                     {
