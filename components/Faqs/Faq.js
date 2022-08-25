@@ -23,6 +23,8 @@ const Faq = () => {
     <section className="text-white-600 body-font">
       <div className="container px-5 pb-24 mx-auto">
           <div className="accordionContainer">
+          <h1 className="generalPageTitle">Frequently Asked Questions</h1>
+          <br />
               {faqs.map(({ question, answer }, i) => {
                 let idx = ++i; 
                 return (
