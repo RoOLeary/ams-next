@@ -1,9 +1,11 @@
-import Layout from './../components/Layout';
-import Gallery from './../components/Gallery';
-import PanelGrid from './../components/PanelGrid';
+import Image from 'next/image'; 
+import Layout from '../components/Layout';
+import Gallery from '../components/Gallery';
+import PanelGrid from '../components/PanelGrid';
 import Featured from '../components/Featured';
 import Signup from '../components/Signup';
 import TextVisual from '../components/TextVisual';
+import imageLoader from '../imageLoader';
 
 export default function Home() {
   return (
@@ -17,7 +19,7 @@ export default function Home() {
       <Signup />
       <Featured />
       <div className="w-full h-auto border-black bg-white flex justify-end">
-          <img src="https://algarvemusicseries.com/wp-content/uploads/2019/11/music.jpeg" className="relative block w-full h-full object-cover -mt-12" />     
+          <Image loader={imageLoader} alt="Banner Image" src="https://algarvemusicseries.com/wp-content/uploads/2019/11/music.jpeg" className="relative block w-full h-full object-cover -mt-12" width={1200} height={480}/>     
       </div>
       <TextVisual />
       <br />

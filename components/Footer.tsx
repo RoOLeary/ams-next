@@ -1,11 +1,13 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import imageLoader from '../imageLoader';
 
 const Footer = () => {
     return(
         <footer className="text-white-600 body-font">
             <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
             <Link href={'/'}><a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-                <img src="../../algarvemusicseries.jpeg" height={50} width={50} />
+                <Image loader={imageLoader} alt="AMS Logo - Footer" src="../../algarvemusicseries.jpeg" height={50} width={50} />
                 {/* <span className="ml-3 text-xl">Algarve Music Series</span> */}
                 </a></Link>
                 <p className="text-sm text-white-500 sm:ml-4 sm:pl-4 sm:py-2 sm:mt-0 mt-4">© 2022 Algarve Music Series —
