@@ -1,5 +1,7 @@
 import Link from 'next/link';
-
+import Image from 'next/image'; 
+import imageLoader
+ from '../imageLoader';
 const Featured = () => {
 
     return(
@@ -17,7 +19,7 @@ const Featured = () => {
                 <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
                 <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
                     <div className="h-64 overflow-hidden">
-                    <img alt="content" className="object-cover object-center h-full w-full" src="https://source.unsplash.com/600x450/?cello?music" />
+                        <Image loader={imageLoader} alt="content" className="object-cover object-center h-full w-full" src="https://source.unsplash.com/600x450/?cello" width={600} height={400} />
                     </div>
                     <Link href={'artists/isabel-vaz'}><a><h2 className="text-xl font-medium title-font gold mt-5">Isabel Vaz</h2></a></Link>
                     <p className="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
@@ -30,7 +32,7 @@ const Featured = () => {
                 </div>
                 <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
                     <div className="h-64 overflow-hidden">
-                    <img alt="content" className="object-cover object-center h-full w-full" src="https://source.unsplash.com/600x450/?piano?music" />
+                        <Image loader={imageLoader} alt="content" className="object-cover object-center h-full w-full" src="https://source.unsplash.com/600x450/?piano" width={600} height={400} />
                     </div>
                     <Link href={'artists/vasco-dantes'}><a><h2 className="text-xl font-medium title-font gold mt-5">Vasco Dantes</h2></a></Link>
                     <p className="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
@@ -43,7 +45,7 @@ const Featured = () => {
                 </div>
                 <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
                     <div className="h-64 overflow-hidden">
-                    <img alt="content" className="object-cover object-center h-full w-full" src="https://source.unsplash.com/600x450/?clarinet" />
+                        <Image loader={imageLoader} alt="content" className="object-cover object-center h-full w-full" src="https://source.unsplash.com/600x450/?violin" width={600} height={400} />
                     </div>
                     <h2 className="text-xl font-medium title-font gold mt-5">Natasha Grujic</h2>
                     <p className="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
