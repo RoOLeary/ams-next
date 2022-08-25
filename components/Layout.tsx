@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Header from './Header';
 import Footer from './Footer';
+import SEO from './SEO';
 import { motion } from 'framer-motion';
 import { useRouter } from 'next/router'; 
 
@@ -12,14 +13,16 @@ const variants = {
 
 type Props = {
     children: any
+    description?: string
 }
 
-const Layout = ({ children }: Props): JSX.Element => (
+const Layout = ({ children, description }: Props): JSX.Element => (
         
         <>  
             <Head>
                 <title>Algarve Music Series | October 2022</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <SEO />
             </Head>
             <Header />  
             <motion.div

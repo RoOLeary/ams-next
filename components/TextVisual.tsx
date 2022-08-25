@@ -1,6 +1,8 @@
 import Link from 'next/link';
+import Image from 'next/image';
+import imageLoader from '../imageLoader';
 
-const TextVisual = () => {
+const TextVisual = (): JSX.Element => {
     return(
         <section className="text-white-600 body-font">
             <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
@@ -18,7 +20,7 @@ const TextVisual = () => {
                 </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                <img className="object-cover object-center rounded" alt="hero" src="https://source.unsplash.com/600x450/?concert?tickets" />
+                    <Image className={"object-cover object-center"} alt="hero" src="https://source.unsplash.com/600x450/?concert?tickets" loader={imageLoader} width={600} height={450} />
                 </div>
             </div>
         </section>

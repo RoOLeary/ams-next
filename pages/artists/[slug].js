@@ -1,7 +1,8 @@
+import Image from 'next/image';
 import Layout from './../../components/Layout';
 import Gallery from '../../components/Gallery';
 import PageHeader from '../../components/PageHeader';
-import TextVisual from './../../components/TextVisual';
+import imageLoader from '../../imageLoader';
 
 export default function ArtistSingle() {
     let aboutContent = `Meggings portland fingerstache lyft, post-ironic fixie man bun banh mi umami everyday carry hexagon locavore direct trade art party. Locavore small batch listicle gastropub farm-to-table lumbersexual salvia messenger bag. Coloring book flannel truffaut craft beer drinking vinegar sartorial, disrupt fashion axe normcore meh butcher. Portland 90's scenester vexillologist forage post-ironic asymmetrical, chartreuse disrupt butcher paleo intelligentsia pabst before they sold out four loko. 3 wolf moon brooklyn.
@@ -23,7 +24,7 @@ export default function ArtistSingle() {
             </div>
            
             <div className="w-full h-auto border-black bg-white flex justify-end">
-                <img src="https://algarvemusicseries.com/wp-content/uploads/2019/11/music.jpeg" className="relative block w-full h-full object-cover -mt-12" />     
+                <Image src="https://algarvemusicseries.com/wp-content/uploads/2019/11/music.jpeg" className="relative block w-full h-full object-cover -mt-12" loader={imageLoader} width={1200} height={480}/>     
             </div>
            
         </Layout>

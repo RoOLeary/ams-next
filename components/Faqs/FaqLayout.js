@@ -1,4 +1,11 @@
 import React from 'react';
+import { motion } from 'framer-motion';
+
+const variants = {
+    hidden: { scale: 0, x: 0, y: 0 },
+    enter: { scale: 1, x: 0, y: 0 },
+    exit: { scale: 0, x: 0, y: 0 },
+}
 
 const FaqLayout = ({ title, children, index, activeIndex, setActiveIndex }) => {
 
@@ -24,11 +31,15 @@ const FaqLayout = ({ title, children, index, activeIndex, setActiveIndex }) => {
                     }
                 </div>
             </div>
-
+            
             {(activeIndex === index) && (
-                <div className="flex w-full transition bg-lightgray-200 p-4 mb-6">
+                <motion.div
+                    animate={{ scale: [0, 1] }}
+                    transition={{ times: [0, 1] }}
+                    className="flex w-full bg-lightgray-200 p-4 mb-6"
+                >
                     {children}
-                </div>
+                </motion.div>
             )}
         </>
     );
