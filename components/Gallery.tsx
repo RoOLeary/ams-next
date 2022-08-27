@@ -49,22 +49,22 @@ const Gallery = () => {
                     </div>
                     <div className="md:p-2 p-1 w-full">
                         <Link href={'/schedule'}>
-                            <a><Image loader={imageLoader} alt="gallery-image" className="w-full h-full object-cover object-center block" src="https://source.unsplash.com/850x400/?string-quartet" width={850} height={400} /></a>
+                            <a><Image loader={imageLoader} alt="gallery-image" className="w-full h-full object-cover object-center block" src="./../assets/images/classical3.jpeg" width={850} height={400} /></a>
                         </Link>
                     </div>
                 </div>
                 <div className="flex flex-wrap w-1/2">
                     <div className="md:p-2 p-1 w-full">
                         <Link href={'/masterclasses'}>
-                            <a><Image loader={imageLoader} alt="gallery-image" className="w-full h-full object-cover object-center block" src="https://source.unsplash.com/850x400/?algarve" width={850} height={400} /></a>
+                            <a><Image loader={imageLoader} alt="gallery-image" className="w-full h-full object-cover object-center block" src="./../assets/images/ams-home3.jpeg" width={850} height={400} /></a>
                         </Link>
                     </div>
                     
                     <div className="md:p-2 p-1 w-1/2">
-                    <a><Image loader={imageLoader} alt="gallery-image" className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?violin" width={500} height={300} /></a>
+                    <a><Image loader={imageLoader} alt="gallery-image" className="w-full object-cover h-full object-center block" src="./../assets/images/vasco-dantas.jpeg" width={500} height={300} /></a>
                     </div>
                     <div className="md:p-2 p-1 w-1/2">
-                    <a><Image loader={imageLoader} alt="gallery-image" className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?concert" width={500} height={300} /></a>
+                    <a><Image loader={imageLoader} alt="gallery-image" className="w-full object-cover h-full object-center block" src="./../assets/images/club-farense-faro.jpeg" width={500} height={300} /></a>
                     </div>
                 </div>
                 </div>
