@@ -4,33 +4,40 @@ import { useRouter } from 'next/router';
 import { isActiveLink } from '../lib/utils'
 import { AnimateSharedLayout, motion } from 'framer-motion'
 
-const links: { name: string; href: string }[] = [
+const links: { name: string; ptName: string, href: string }[] = [
     {
         name: 'Home',
+        ptName: 'Casa',
         href: '/',
     },
     {
         name: 'About',
+        ptName: 'Sobré Nos',
         href: '/about',
     },
     {
         name: 'Artists',
+        ptName: 'Artistas',
         href: '/artists',
     },
     {
         name: 'Schedule',
+        ptName: 'Cronograma',
         href: '/schedule',
     },
     {
         name: 'Tickets',
+        ptName: 'Ingressos',
         href: '/tickets',
     },
     {
         name: 'Master Classes',
+        ptName: 'Classe mestres',
         href: '/masterclasses',
     },
     {
         name: 'Contact',
+        ptName: 'Contato',
         href: '/contact',
     },
 ]
@@ -97,12 +104,12 @@ const Nav = (): JSX.Element => {
 
         <div className={`${active ? '' : 'hidden'} w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
           <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
-          {links.map(({ name, href }, i) => (
+          {links.map(({ name, ptName, href }, i) => (
                 
                
                 <Link key={i} href={`${locale}${href}`}>
                     <a className={router.pathname == href ? "mr-5 gold" : "mr-5"}>
-                        {name}
+                        {locale === 'pt' ? ptName : name}
                         {isActiveLink(href, router.pathname) && (
                             <motion.div
                                 layoutId="navigation-underline"
