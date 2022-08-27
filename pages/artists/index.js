@@ -21,11 +21,11 @@ export default function Artists() {
 
     let dummyTitle = [
         {
-            "locale": "en-US",
+            "locale": "en",
             'editionTitle': `This Edition's Performers`
         },
         {
-            "locale": "pt-PT",
+            "locale": "pt",
             'editionTitle': `Artistas desta Edição`
         }
     ]
@@ -46,8 +46,8 @@ export default function Artists() {
     ];
 
     let l18n = dummy.filter((h) => h.locale === locale); 
-
-    // console.log(l18n);
+    let dmTitle = dummyTitle.filter((d) => d.locale === locale);
+    console.log(dmTitle[0].editionTitle);
 
     return(
         <Layout>
@@ -56,7 +56,7 @@ export default function Artists() {
                 <div className="container px-5 py-24 mx-auto">
                     <div className="flex flex-wrap w-full mb-20">
                     <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-                        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-white-900" dangerouslySetInnerHTML={{ __html: dummyTitle[0].editionTitle }} />
+                        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-white-900" dangerouslySetInnerHTML={{ __html: dmTitle[0].editionTitle }} />
                         <br />
                         <div className="h-1 w-20 bg-goldenrod"></div>
                     </div>

@@ -38,9 +38,12 @@ const ModalContent = ({ modalInfo }) => {
                   <>
                     <Image loader={imageLoader} width={600} height={300} alt={modalInfo[0].name} className="" src={modalInfo[0].image} loading="lazy" />
                     <noscript>
-                      <img
+                      <Image
                         alt={modalInfo[0].title}
                         src={modalInfo[0].image}
+                        loader={imageLoader} 
+                        width={600} 
+                        height={300}
                         data-src={modalInfo[0].image}
                       />
                     </noscript>
