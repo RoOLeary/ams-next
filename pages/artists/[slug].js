@@ -35,7 +35,7 @@ export default function ArtistSingle() {
             </div>
            
             <div className="w-full h-auto border-black bg-white flex justify-end">
-                <Image src="https://algarvemusicseries.com/wp-content/uploads/2019/11/music.jpeg" className="relative block w-full h-full object-cover -mt-12" loader={imageLoader} width={1200} height={480}/>     
+                <Image alt="artist single banner"src="https://algarvemusicseries.com/wp-content/uploads/2019/11/music.jpeg" className="relative block w-full h-full object-cover -mt-12" loader={imageLoader} width={1200} height={480} loading="lazy" />     
             </div>
            
         </Layout>
