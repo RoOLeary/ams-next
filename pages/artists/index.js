@@ -1,8 +1,20 @@
+import useModal from './../../hooks/useModal';
+import ArtistModal from './../../components/common/ArtistModal';
 import Link from 'next/link';
 import Layout from './../../components/Layout';
 import PageHeader from '../../components/PageHeader';
 
 export default function Artists() {
+    const { show, toggleVisibility } = useModal();
+
+
+    let artist = [{
+        "name": "Isabel Vaz",
+        "occupation": "Cellist",
+        "biography": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sit amet nisi iaculis, congue risus ut, ultricies purus. Aliquam interdum mauris enim, eu lacinia enim suscipit non.",
+        "image": "https://source.unsplash.com/600x300/?violinist"
+    }]
+
     let dummyTitle = `This Edition's Performers`;
     let dummy = `Cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.<br><br>
     Cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag`;
@@ -22,11 +34,16 @@ export default function Artists() {
                     <div className="flex flex-wrap -m-4">
                     <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="bg-gray-100">
-                            <img className="h-40 w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?violinist" alt="content" />
+                            <img className="h-40 w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?violinist" alt="content"  onClick={toggleVisibility} />
                                 <div className="px-6 pb-6">
                                     <h3 className="tracking-widest gold text-xs font-medium title-font">SUBTITLE</h3>
                                     <Link href={`/artists/chicen-itza`}><a className="gold hover:text-red"><h2 className="text-lg text-black font-medium title-font mb-4">Isabel Vaz</h2></a></Link>
                                     <p className="leading-relaxed text-gray-500">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+                                    <ArtistModal
+                                        artist={artist}
+                                        show={show}
+                                        toggleVisibility={toggleVisibility}
+                                    />
                                 </div>
                             </div>
                         </div>
