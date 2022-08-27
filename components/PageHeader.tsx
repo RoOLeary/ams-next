@@ -7,7 +7,7 @@ const PageHeader = (props) => {
     console.log(headerContent);
     console.log(locale);
 
-    const l18n = headerContent.filter((h) => h.locale === locale); 
+    const l18n = headerContent && headerContent.filter((h) => h.locale === locale); 
 
     console.log(l18n[0].title);
 
