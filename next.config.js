@@ -6,9 +6,8 @@ const nextConfig = {
   },
   swcMinify: true,
   i18n: {
-   locales: ["en-US", "pt-PT"],
-   //  default locale used when the non-locale paths are visited
-   defaultLocale: "en-US",
+    locales: ['default', 'en', 'pt'],
+    defaultLocale: 'default',
  },
 }
 

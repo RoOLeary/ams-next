@@ -4,12 +4,12 @@ const PageHeader = (props) => {
     const {title, headerContent} = props; 
     const { locale, locales, asPath } = useRouter();
 
-    console.log(headerContent);
-    console.log(locale);
+    // console.log(headerContent);
+    // console.log(locale);
 
     const l18n = headerContent && headerContent.filter((h) => h.locale === locale); 
 
-    console.log(l18n[0].title);
+    // console.log(l18n[0].title);
 
     return(
         <div className="container px-5 pt-24 mx-auto">

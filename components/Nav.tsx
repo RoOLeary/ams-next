@@ -40,13 +40,16 @@ const links: { name: string; href: string }[] = [
 const Nav = (): JSX.Element => {
     const unitRef = useRef(null);
     const router = useRouter(); 
+    const { locales, locale } = useRouter();
     const [active, setActive] = useState(false);
     const [navbar, setNavbar] = useState(false);
+
+    // console.log(locale);
 
     const handleClick = () => {
         console.log('toggled')
         setActive(!active)
-        console.log(active);
+        // console.log(active);
     }
 
     return(
@@ -97,7 +100,7 @@ const Nav = (): JSX.Element => {
           {links.map(({ name, href }, i) => (
                 
                
-                <Link key={i} href={href}>
+                <Link key={i} href={`${locale}${href}`}>
                     <a className={router.pathname == href ? "mr-5 gold" : "mr-5"}>
                         {name}
                         {isActiveLink(href, router.pathname) && (
