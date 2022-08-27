@@ -6,8 +6,8 @@ const nextConfig = {
   },
   swcMinify: true,
   i18n: {
-    locales: ['default', 'en', 'pt'],
-    defaultLocale: 'default',
+    locales: ['pt', 'en'],
+    defaultLocale: 'pt',
  },
 }
 
