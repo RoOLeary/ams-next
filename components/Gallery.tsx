@@ -38,33 +38,33 @@ const Gallery = () => {
                     <div className="md:p-2 p-1 w-1/2">
                         <Link href={'/artists'}>
                             <a>
-                                <Image loader={imageLoader} alt="gallery" className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?piano" width={500} height={300} loading="lazy" />
+                                <Image loader={imageLoader} alt="gallery" className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?piano" width={500} height={300} />
                             </a>
                         </Link>
                     </div>
                     <div className="md:p-2 p-1 w-1/2">
                         <Link href={'/about'}>
-                            <a><Image loader={imageLoader} alt="gallery-image" className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?cello" width={500} height={300} loading="lazy" /></a>
+                            <a><Image loader={imageLoader} alt="gallery-image" className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?cello" width={500} height={300} /></a>
                         </Link>
                     </div>
                     <div className="md:p-2 p-1 w-full">
                         <Link href={'/schedule'}>
-                            <a><Image loader={imageLoader} alt="gallery-image" className="w-full h-full object-cover object-center block" src="https://source.unsplash.com/850x400/?string-quartet" width={850} height={400} loading="lazy" /></a>
+                            <a><Image loader={imageLoader} alt="gallery-image" className="w-full h-full object-cover object-center block" src="https://source.unsplash.com/850x400/?string-quartet" width={850} height={400} /></a>
                         </Link>
                     </div>
                 </div>
                 <div className="flex flex-wrap w-1/2">
                     <div className="md:p-2 p-1 w-full">
                         <Link href={'/masterclasses'}>
-                            <a><Image loader={imageLoader} alt="gallery-image" className="w-full h-full object-cover object-center block" src="https://source.unsplash.com/850x400/?algarve" width={850} height={400} loading="lazy" /></a>
+                            <a><Image loader={imageLoader} alt="gallery-image" className="w-full h-full object-cover object-center block" src="https://source.unsplash.com/850x400/?algarve" width={850} height={400} /></a>
                         </Link>
                     </div>
                     
                     <div className="md:p-2 p-1 w-1/2">
-                    <a><Image loader={imageLoader} alt="gallery-image" className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?violin" width={500} height={300} loading="lazy" /></a>
+                    <a><Image loader={imageLoader} alt="gallery-image" className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?violin" width={500} height={300} /></a>
                     </div>
                     <div className="md:p-2 p-1 w-1/2">
-                    <a><Image loader={imageLoader} alt="gallery-image" className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?concert" width={500} height={300} loading="lazy" /></a>
+                    <a><Image loader={imageLoader} alt="gallery-image" className="w-full object-cover h-full object-center block" src="https://source.unsplash.com/500x300/?concert" width={500} height={300} /></a>
                     </div>
                 </div>
                 </div>

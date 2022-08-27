@@ -20,7 +20,7 @@ const TextVisual = (): JSX.Element => {
                 </div>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                    <Image className={"object-cover object-center"} alt="hero" src="https://source.unsplash.com/600x450/?concert?tickets" loader={imageLoader} width={600} height={450} loading="lazy" />
+                    <Image className={"object-cover object-center"} alt="hero" src="https://source.unsplash.com/600x450/?concert?tickets" loader={imageLoader} width={600} height={450} />
                 </div>
             </div>
         </section>

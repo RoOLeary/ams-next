@@ -46,7 +46,7 @@ const Featured = () => {
                 </div>
                 <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
                     <div className="h-64 overflow-hidden">
-                        <Image loader={imageLoader} alt="content" className="object-cover object-center h-full w-full" src="https://source.unsplash.com/600x450/?violin" width={600} height={400} loading="lazy" />
+                        <Image loader={imageLoader} alt="content" className="object-cover object-center h-full w-full" src="https://source.unsplash.com/600x450/?violin" width={600} height={400} />
                     </div>
                     <h2 className="text-xl font-medium title-font gold mt-5">Natasha Grujic</h2>
                     <p className="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
