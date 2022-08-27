@@ -1,12 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const variants = {
-    hidden: { scale: 0, x: 0, y: 0 },
-    enter: { scale: 1, x: 0, y: 0 },
-    exit: { scale: 0, x: 0, y: 0 },
-}
-
 const FaqLayout = ({ title, children, index, activeIndex, setActiveIndex }) => {
 
     const handleSetIndex = (index) => (activeIndex !== index) && setActiveIndex(index);

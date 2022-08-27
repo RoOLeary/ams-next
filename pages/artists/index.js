@@ -68,7 +68,7 @@ export default function Artists() {
                             <img className="h-40 w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?violinist" alt="content"  onClick={toggleVisibility} />
                                 <div className="px-6 pb-6">
                                     <h3 className="tracking-widest gold text-xs font-medium title-font">SUBTITLE</h3>
-                                    <Link href={`/artists/chicen-itza`}><a className="gold hover:text-red"><h2 className="text-lg text-black font-medium title-font mb-4">Isabel Vaz</h2></a></Link>
+                                    <Link href={`/artists/isabel-vaz`}><a className="gold hover:text-red"><h2 className="text-lg text-black font-medium title-font mb-4">Isabel Vaz</h2></a></Link>
                                     <p className="leading-relaxed text-gray-500">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
                                     <ArtistModal
                                         artist={artist}

@@ -107,7 +107,7 @@ const Nav = (): JSX.Element => {
           {links.map(({ name, ptName, href }, i) => (
                 
                
-                <Link key={i} href={`${locale}${href}`}>
+                <Link key={i} href={`/${locale}${href}`}>
                     <a className={router.pathname == href ? "mr-5 gold" : "mr-5"}>
                         {locale === 'pt' ? ptName : name}
                         {isActiveLink(href, router.pathname) && (
