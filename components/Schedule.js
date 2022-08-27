@@ -18,7 +18,7 @@ const Schedule = () => {
             "id": 2,
             "category": "Quartet",
             "date": "23-09-22",
-            "title":  "Qaurtet Exposition",
+            "title":  "Quartet Exposition",
             "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
             "url": 'quartet-exposition'
         },
