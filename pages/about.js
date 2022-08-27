@@ -17,7 +17,7 @@ export default function About() {
         {
             "locale": "pt",
             "title": "Sobré nos",
-            "content": "Esta es la primera entrada del blog en español publicada en el blog",
+            "content": "O Algarve Music Series é um ciclo de concertos com já 5 anos de existência, com base na região do Algarve. Com foco sobretudo na música de câmara, caracteriza-se por uma programação cuidada, uma relação próxima com o público e elevada qualidade dos artistas intervenientes (nacionais e internacionais).",
         }
     ];
 
