@@ -121,6 +121,7 @@ const Nav = (): JSX.Element => {
                 </Link>
               
             ))}
+            <a href={`/${locale === 'pt' ? 'en' : 'pt'}`}>{locale === 'pt' ? 'EN' : 'PT'}</a>
           </div>
         </div>
       </nav>
