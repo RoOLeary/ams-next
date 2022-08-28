@@ -3,6 +3,7 @@ import { useRouter } from 'next/router';
 import Banner from '../components/Banner';
 import Layout from '../components/Layout';
 import HeroGrid from '../components/HeroGrid';
+import HomeHeader from '../components/HomeHeader';
 import PanelGrid from '../components/PanelGrid';
 import Featured from '../components/Featured';
 import Signup from '../components/Signup';
@@ -16,10 +17,7 @@ export default function Home() {
 
   return (
     <Layout>
-      <div className="container px-5 py-24 mx-auto">
-        <h1 className="generalPageTitle text-center">{home[0].title}</h1>
-        <h2 className="text-center text-2xl">{home[0].editionDetails}</h2>
-      </div>
+      <HomeHeader title={home[0].title} editionDetails={home[0].editionDetails} />
       <HeroGrid />
       <PanelGrid />
       <Signup />
