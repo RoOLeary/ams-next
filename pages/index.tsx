@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 import Banner from '../components/Banner';
 import Layout from '../components/Layout';
-import Gallery from '../components/Gallery';
+import HeroGrid from '../components/HeroGrid';
 import PanelGrid from '../components/PanelGrid';
 import Featured from '../components/Featured';
 import Signup from '../components/Signup';
@@ -17,7 +17,7 @@ export default function Home() {
         <h1 className="generalPageTitle text-center">{locale === 'en' ? 'Algarve Music Series' : 'Série de Música do Algarve'}</h1>
         <h2 className="text-center text-2xl">{locale === 'en' ? '7th Edition | October 2022 | Algarve, Portugal' : '7ª Edição | Outubro 2022 | Algarve, Portugal'}</h2>
       </div>
-      <Gallery />
+      <HeroGrid />
       <PanelGrid />
       <Signup />
       <Featured />

@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Banner from './../../../components/Banner' 
 import Layout from './../../../components/Layout';
 import PageHeader from '../../../components/PageHeader';
-import Gallery from './../../../components/Gallery';
+import HeroGrid from '../../../components/HeroGrid';
 import Ticket from './../../../components/Ticket';
 import imageLoader from '../../../imageLoader';
 
@@ -27,7 +27,7 @@ const EventSingle = () => {
         <Layout>
             <PageHeader title="Event Single Instance" headerContent={aboutContent} />
             <br />
-            <Gallery />
+            <HeroGrid />
             <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center">
                 <Ticket />
             </div>

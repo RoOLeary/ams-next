@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Banner from './../../components/Banner' 
 import Layout from './../../components/Layout';
-import Gallery from '../../components/Gallery';
+import HeroGrid from '../../components/HeroGrid';
 import PageHeader from '../../components/PageHeader';
 import imageLoader from '../../imageLoader';
 
@@ -25,7 +25,7 @@ export default function ArtistSingle() {
         <Layout>
             <PageHeader title="Isabel Vaz" headerContent={aboutContent} />
             <br />
-            <Gallery />
+            <HeroGrid />
             <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center">
                 <div className="flex flex-col sm:flex-row mt-10">
                     <div className="sm:w-full sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
