@@ -23,7 +23,7 @@ const Featured = () => {
                         <Image loader={imageLoader} alt="content" className="object-cover object-center h-full w-full" src="./../assets/images/isabelvaz.jpeg" width={600} height={400} />
                     </div>
                     <Link href={'artists/isabel-vaz'}><a><h2 className="text-xl font-medium title-font gold mt-5">Isabel Vaz</h2></a></Link>
-                    <p className="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
+                    <p className="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra.</p>
                     <Link href={'artists/isabel-vaz'}><a className="gold inline-flex items-center mt-3">Learn More
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -36,7 +36,7 @@ const Featured = () => {
                         <Image loader={imageLoader} alt="content" className="object-cover object-center h-full w-full" src="./../assets/images/vasco-dantas.jpeg" width={600} height={400} />
                     </div>
                     <Link href={'artists/vasco-dantes'}><a><h2 className="text-xl font-medium title-font gold mt-5">Vasco Dantes</h2></a></Link>
-                    <p className="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
+                    <p className="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra.</p>
                     <Link href={'artists/vasco-dantes'}><a className="gold inline-flex items-center mt-3">Learn More
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -49,7 +49,7 @@ const Featured = () => {
                         <Image loader={imageLoader} alt="content" className="object-cover object-center h-full w-full" src="./../assets/images/lisa-jacobs.jpeg" width={600} height={400} />
                     </div>
                     <h2 className="text-xl font-medium title-font gold mt-5">Lisa Jacobs</h2>
-                    <p className="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.</p>
+                    <p className="text-base leading-relaxed mt-2">Swag shoivdigoitch literally meditation subway tile tumblr cold-pressed. Gastropub street art beard dreamcatcher neutra.</p>
                     <Link href={'artists/ketevan-roninishvilli'}><a className="gold inline-flex items-center mt-3">Learn More
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                         <path d="M5 12h14M12 5l7 7-7 7"></path>
