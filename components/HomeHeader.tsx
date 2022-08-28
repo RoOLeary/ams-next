@@ -15,7 +15,7 @@ const HomeHeader = ({ title, editionDetails }: IHomeHeader): JSX.Element => {
             <motion.div
                 initial={{ opacity: 0, y: -100 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: .85,  ease: "easeInOut" }}
+                transition={{ duration: .8,  ease: "easeInOut" }}
                 className="container px-5 py-24 mx-auto"
             >
                 <h1 className="generalPageTitle text-center">{title}</h1>
