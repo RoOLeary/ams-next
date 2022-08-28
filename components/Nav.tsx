@@ -54,7 +54,6 @@ const Nav = (): JSX.Element => {
    
    
     const handleClick = () => {
-        // console.log(active)
         setActive(!active)
         document.body.className = active ? '' : 'navIsOpen';
         
@@ -62,32 +61,30 @@ const Nav = (): JSX.Element => {
 
     return(
           
-            <nav className='flex items-center flex-wrap p-3 '>
-                <button
-                    className=' inline-flex p-3 hover:bg-gray-200 rounded-full lg:hidden text-white ml-auto hover:text-white outline-none menuToggleIndex'
-                    onClick={() => handleClick()}
+        <nav className='flex items-center flex-wrap p-3 '>
+            <button
+                className=' inline-flex p-3 hover:bg-gray-200 rounded-full lg:hidden text-white ml-auto hover:text-white outline-none menuToggleIndex'
+                onClick={() => handleClick()}
+            >
+                <svg
+                className='w-6 h-6'
+                fill='none'
+                stroke='goldenrod'
+                viewBox='0 0 24 24'
+                xmlns='http://www.w3.org/2000/svg'
                 >
-                    <svg
-                    className='w-6 h-6'
-                    fill='none'
-                    stroke='goldenrod'
-                    viewBox='0 0 24 24'
-                    xmlns='http://www.w3.org/2000/svg'
-                    >
-                    <path
-                        strokeLinecap='round'
-                        strokeLinejoin='round'
-                        strokeWidth={2}
-                        d='M4 6h16M4 12h16M4 18h16'
-                    />
-                    </svg>
-                </button>
+                <path
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    strokeWidth={2}
+                    d='M4 6h16M4 12h16M4 18h16'
+                />
+                </svg>
+            </button>
 
-                <div className={`${active ? 'mobileNav' : 'hidden'} w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
+            <div className={`${active ? 'mobileNav' : 'hidden'} w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
                 <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
-                {links.map(({ name, ptName, href }, i) => (
-                        
-                    
+                    {links.map(({ name, ptName, href }, i) => (
                         <Link key={i} href={`/${locale}${href}`}>
                             <a className={router.pathname == href ? "mr-5 gold mobLink" : "mr-5 mobLink"}>
                                 {locale === 'pt' ? ptName : name}
@@ -100,12 +97,11 @@ const Nav = (): JSX.Element => {
                                 )}
                             </a>
                         </Link>
-                    
                     ))}
                     <a href={`/${locale === 'pt' ? 'en' : 'pt' }`}>{locale === 'pt' ? 'EN' : '🇵🇹'}</a>
                 </div>
-                </div>
-            </nav>
+            </div>
+        </nav>
         
     )    
 }
