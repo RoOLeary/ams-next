@@ -1,4 +1,9 @@
-const Signup = () => {
+
+interface Signup {     
+    content: any
+}
+
+const Signup = ({ content }: Signup): JSX.Element => {
 
     return(
         <section className="text-white body-font">

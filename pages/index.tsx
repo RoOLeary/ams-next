@@ -20,7 +20,7 @@ export default function Home() {
       <HomeHeader title={home[0].title} editionDetails={home[0].editionDetails} />
       <HeroGrid />
       <PanelGrid />
-      <Signup />
+      <Signup content={'signup'}/>
       <Featured />
       <Banner title={'Home Banner'} />
       <TextVisual />
