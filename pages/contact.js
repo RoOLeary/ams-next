@@ -1,8 +1,8 @@
-import Layout from './../components/Layout';
+import Layout from '../components/Layout';
 import PageHeader from '../components/PageHeader';
-import TextVisual from './../components/TextVisual';
+import TextVisual from '../components/TextVisual';
 
-export default function Contact(){
+export default function Contact():JSX.Element{
    
     let contactText =[
         {
