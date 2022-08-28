@@ -36,6 +36,11 @@ const links: { name: string; ptName: string, href: string }[] = [
         href: '/masterclasses',
     },
     {
+        name: 'FAQ',
+        ptName: 'FAQ',
+        href: '/faq',
+    },
+    {
         name: 'Contact',
         ptName: 'Contato',
         href: '/contact',

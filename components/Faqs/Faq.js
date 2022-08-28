@@ -6,8 +6,8 @@ const Faq = () => {
 
     let faqs = [
       {
-          "question": "What is the meaning of this?",
-          "answer": "Portland 90's scenester vexillologist forage post-ironic asymmetrical, chartreuse disrupt butcher paleo intelligentsia pabst before they sold out four loko. 3 wolf moon brooklyn."
+        "question": "What is the meaning of this?",
+        "answer": "Portland 90's scenester vexillologist forage post-ironic asymmetrical, chartreuse disrupt butcher paleo intelligentsia pabst before they sold out four loko. 3 wolf moon brooklyn."
       },
       {
         "question": "Does anyone know how to get to the bright side?",
@@ -23,7 +23,6 @@ const Faq = () => {
     <section className="text-white-600 body-font">
       <div className="container px-5 pb-24 mx-auto">
           <div className="accordionContainer">
-          <h1 className="generalPageTitle">Frequently Asked Questions</h1>
           <br />
               {faqs.map(({ question, answer }, i) => {
                 let idx = ++i; 
