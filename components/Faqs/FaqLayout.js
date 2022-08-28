@@ -28,6 +28,7 @@ const FaqLayout = ({ title, children, index, activeIndex, setActiveIndex }) => {
             
             {(activeIndex === index) && (
                 <motion.div
+                    initial={{ opacity: 0 }}
                     animate={{ opacity: [0, 1] }}
                     transition={{ times: [0, 1], duration: 0.5 }}
                     className="flex w-full bg-lightgray-200 p-4 mb-6"
