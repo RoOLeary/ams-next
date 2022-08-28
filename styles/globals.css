@@ -430,7 +430,7 @@ body {
   overflow: unset;
 }
 
-@media screen and (max-width: 560px)  {
+@media screen and (max-width: 768px)  {
   .mobLink{
     padding: 1em 0;
   } 
