@@ -405,6 +405,9 @@ body {
 }
 
 .mobileNav{
+  
+    
+  
   position: absolute;
   top: 0;
   right: 0;
@@ -415,9 +418,16 @@ body {
   transition: all .5s ease-in-out;
   height: 100vh;
   z-index: 50;
+
 }
 
 .navIsOpen{
   overflow: hidden;
   transition: all 5s ease-in-out;
+}
+
+@media screen and (max-width: 560px)  {
+  .mobLink{
+    padding: 1em 0;
+  } 
 }

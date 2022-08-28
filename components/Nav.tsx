@@ -89,7 +89,7 @@ const Nav = (): JSX.Element => {
                         
                     
                         <Link key={i} href={`/${locale}${href}`}>
-                            <a className={router.pathname == href ? "mr-5 gold" : "mr-5"}>
+                            <a className={router.pathname == href ? "mr-5 gold mobLink" : "mr-5 mobLink"}>
                                 {locale === 'pt' ? ptName : name}
                                 {isActiveLink(href, router.pathname) && (
                                     <motion.div
