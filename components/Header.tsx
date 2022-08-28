@@ -10,7 +10,7 @@ const Header = (): JSX.Element => {
             <div className="container mx-auto flex flex-wrap p-5 md:flex-row items-center justify-between">
                 <Link href={'/'}>
                     <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-                        <Image alt={'AMS'} loader={imageLoader} src="./../../../algarvemusicseries.jpeg" height={85} width={70} loading="lazy" />
+                        <Image alt={'AMS'} loader={imageLoader} src="./../../../algarvemusicseries.jpeg" height={85} width={70} />
                     </a>
                 </Link>
                 <Nav />
