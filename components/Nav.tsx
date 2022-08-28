@@ -60,7 +60,7 @@ const Nav = (): JSX.Element => {
         <AnimateSharedLayout>    
             <nav className='flex items-center flex-wrap p-3 '>
                 <button
-                    className=' inline-flex p-3 hover:bg-gray-200 rounded-full lg:hidden text-white ml-auto hover:text-white outline-none'
+                    className=' inline-flex p-3 hover:bg-gray-200 rounded-full lg:hidden text-white ml-auto hover:text-white outline-none menuToggleIndex'
                     onClick={() => handleClick()}
                 >
                     <svg
@@ -79,7 +79,7 @@ const Nav = (): JSX.Element => {
                     </svg>
                 </button>
 
-                <div className={`${active ? '' : 'hidden'} w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
+                <div className={`${active ? 'mobileNav' : 'hidden'} w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
                 <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
                 {links.map(({ name, ptName, href }, i) => (
                         

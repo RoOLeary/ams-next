@@ -393,3 +393,18 @@ body {
   will-change: transform;
   padding: 15px;
 }
+
+.menuToggleIndex{
+  z-index: 999; 
+}
+
+.mobileNav{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 3em 2em;
+  background-color: #202142;
+  transition: all .5s ease-in-out;
+}
