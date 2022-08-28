@@ -8,14 +8,18 @@ import Featured from '../components/Featured';
 import Signup from '../components/Signup';
 import TextVisual from '../components/TextVisual';
 import imageLoader from '../imageLoader';
+import homeContent from '../lib/data/homeContent';
+
 
 export default function Home() {
   const { locale } = useRouter();
+  const home = homeContent && homeContent.filter((h) => h.locale === locale); 
+
   return (
     <Layout>
       <div className="container px-5 py-24 mx-auto">
-        <h1 className="generalPageTitle text-center">{locale === 'en' ? 'Algarve Music Series' : 'Série de Música do Algarve'}</h1>
-        <h2 className="text-center text-2xl">{locale === 'en' ? '7th Edition | October 2022 | Algarve, Portugal' : '7ª Edição | Outubro 2022 | Algarve, Portugal'}</h2>
+        <h1 className="generalPageTitle text-center">{home[0].title}</h1>
+        <h2 className="text-center text-2xl">{home[0].editionDetails}</h2>
       </div>
       <HeroGrid />
       <PanelGrid />
@@ -27,3 +31,4 @@ export default function Home() {
     </Layout>
   )
 }
+

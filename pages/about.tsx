@@ -5,8 +5,6 @@ import Faq from '../components/Faqs/Faq';
 import aboutContent from '../lib/data/aboutContent';
 
 export default function About() {
-  
-    
 
     return(
         <Layout>

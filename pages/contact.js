@@ -3,7 +3,7 @@ import PageHeader from '../components/PageHeader';
 import TextVisual from '../components/TextVisual';
 import contactText from '../lib/data/contactContent';
 
-export default function Contact(){
+export default function Contact({ data }) {
    
     return(
         <Layout>
