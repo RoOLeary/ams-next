@@ -39,7 +39,7 @@ export default function Contact(){
                         <label htmlFor="message" className="leading-7 text-sm text-black">Message</label>
                         <textarea id="message" name="message" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-white-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
                     </div>
-                    <button className="text-white bg-goldenrod border-0 py-2 px-6 focus:outline-none hover:bg-goldenrod rounded text-lg">Button</button>
+                    <button className="text-white bg-goldenrod border-0 py-2 px-6 focus:outline-none hover:bg-goldenrod rounded text-lg hover:bg-gray-100 hover:text-black">Button</button>
                     <p className="text-xs text-white-500 mt-3">We will not pass your data to third parties.</p>
                     </div>
                 </div>
