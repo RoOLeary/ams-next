@@ -11,8 +11,8 @@ const Ticket = (props) => {
                 </div>
                 <p className="leading-relaxed mb-4">Fam locavore kickstarter distillery. Mixtape chillwave tumeric sriracha taximy chia microdosing tilde DIY. XOXO fam inxigo juiceramps cornhole raw denim forage brooklyn. Everyday carry +1 seitan poutine tumeric. Gastropub blue bottle austin listicle pour-over, neutra jean.</p>
                 <div className="flex">
-                    <span className="title-font font-medium text-2xl text-white">$58.00</span>
-                    <button className="flex ml-auto text-white bg-goldenrod border-0 py-2 px-6 focus:outline-none hover:bg-gray-400 rounded">Buy Now</button>
+                    <span className="title-font font-medium text-2xl text-white">€58.00</span>
+                    <button className="flex ml-auto text-white bg-goldenrod border-0 py-2 px-6 focus:outline-none hover:bg-white hover:text-black rounded">Buy Now</button>
                 </div>
             </div>
         </div>

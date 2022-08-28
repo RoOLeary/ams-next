@@ -11,7 +11,7 @@ const Schedule = () => {
             "category": "Chamber",
             "date": "23-09-22",
             "title":  "Chamber Music Exposition",
-            "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
+            "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha  pork belly polaroid hoodie portland craft beer.",
             "url": 'chamber-music-exposition'
         },
         {
@@ -19,7 +19,7 @@ const Schedule = () => {
             "category": "Quartet",
             "date": "23-09-22",
             "title":  "Quartet Exposition",
-            "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
+            "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha  pork belly polaroid hoodie portland craft beer.",
             "url": 'quartet-exposition'
         },
         {
@@ -27,7 +27,7 @@ const Schedule = () => {
             "category": "Vocalist",
             "date": "23-09-22",
             "title":  "Vocal Music Exposition",
-            "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
+            "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha  pork belly polaroid hoodie portland craft beer.",
             "url": 'page.html'
         },
         {
@@ -35,7 +35,7 @@ const Schedule = () => {
             "category": "Fusion",
             "date": "23-09-22",
             "title":  "Classic and Metal",
-            "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
+            "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha  pork belly polaroid hoodie portland craft beer.",
             "url": 'page'
         },
         {
@@ -43,7 +43,7 @@ const Schedule = () => {
             "category": "Piano",
             "date": "23-09-22",
             "title":  "Piano Recital",
-            "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
+            "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha  pork belly polaroid hoodie portland craft beer.",
             "url": 'page'
         },
         {
@@ -51,7 +51,7 @@ const Schedule = () => {
             "category": "Drums",
             "date": "23-09-22",
             "title":  "Percussion",
-            "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
+            "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha  pork belly polaroid hoodie portland craft beer.",
             "url": 'page'
         }
 
