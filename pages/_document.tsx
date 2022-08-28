@@ -1,6 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
-class MyDocument extends Document {
+class AMSDocument extends Document {
   static async getInitialProps(ctx) {
     const originalRenderPage = ctx.renderPage
 
@@ -32,4 +32,4 @@ class MyDocument extends Document {
   }
 }
 
-export default MyDocument
+export default AMSDocument

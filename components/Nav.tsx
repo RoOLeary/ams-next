@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { useRef, useState } from 'react';
 import { useRouter } from 'next/router'; 
 import { isActiveLink } from '../lib/utils'
-import { AnimateSharedLayout, motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 const links: { name: string; ptName: string, href: string }[] = [
     {
@@ -61,7 +61,7 @@ const Nav = (): JSX.Element => {
     }
 
     return(
-        <AnimateSharedLayout>    
+          
             <nav className='flex items-center flex-wrap p-3 '>
                 <button
                     className=' inline-flex p-3 hover:bg-gray-200 rounded-full lg:hidden text-white ml-auto hover:text-white outline-none menuToggleIndex'
@@ -106,7 +106,7 @@ const Nav = (): JSX.Element => {
                 </div>
                 </div>
             </nav>
-        </AnimateSharedLayout>
+        
     )    
 }
 

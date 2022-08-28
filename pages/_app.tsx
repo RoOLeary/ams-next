@@ -6,7 +6,7 @@ import { AnimatePresence } from 'framer-motion'
 function AlgarveMusicSeries({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <AnimatePresence
-        exitBeforeEnter
+        mode='wait'
         initial={false}
         onExitComplete={() => window.scrollTo(0, 0)}
     >
