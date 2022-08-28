@@ -407,4 +407,10 @@ body {
   padding: 3em 2em;
   background-color: #202142;
   transition: all .5s ease-in-out;
+  height: 100%;
+  z-index: 50;
+}
+
+.navIsOpen{
+  overflow: hidden;
 }

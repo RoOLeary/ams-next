@@ -1,8 +1,9 @@
 import '../styles/globals.css'
 import 'tailwindcss/tailwind.css';
+import type { AppProps } from 'next/app';
 import { AnimatePresence } from 'framer-motion'
 
-function AlgarveMusicSeries({ Component, pageProps }) {
+function AlgarveMusicSeries({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <AnimatePresence
         exitBeforeEnter

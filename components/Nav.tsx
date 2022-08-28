@@ -42,7 +42,9 @@ const links: { name: string; ptName: string, href: string }[] = [
     },
 ]
 
-
+export async function getStaticProps() {
+    return { props: { isNav: true } };
+  }
 
 const Nav = (): JSX.Element => {
     const unitRef = useRef(null);
@@ -52,8 +54,10 @@ const Nav = (): JSX.Element => {
    
    
     const handleClick = () => {
-        // console.log('toggled')
+        // console.log(active)
         setActive(!active)
+        document.body.className = active ? 'navIsClosed' : 'navIsOpen';
+        
     }
 
     return(
