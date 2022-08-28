@@ -7,7 +7,6 @@ import PanelGrid from '../components/PanelGrid';
 import Featured from '../components/Featured';
 import Signup from '../components/Signup';
 import TextVisual from '../components/TextVisual';
-import imageLoader from '../imageLoader';
 import homeContent from '../lib/data/homeContent';
 
 
