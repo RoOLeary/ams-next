@@ -29,7 +29,9 @@ export default function Artists() {
                     <div className="flex flex-wrap -m-4">
                     <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="bg-gray-100">
-                            <img className="h-40 w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?violinist" alt="content"  onClick={toggleVisibility} />
+                            <picture>
+                                <img className="h-40 w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?violinist" alt="content"  onClick={toggleVisibility} />
+                            </picture>
                                 <div className="px-6 pb-6">
                                     <h3 className="tracking-widest gold text-xs font-medium title-font">SUBTITLE</h3>
                                     <Link href={`/artists/isabel-vaz`}><a className="gold hover:text-red"><h2 className="text-lg text-black font-medium title-font mb-4">Isabel Vaz</h2></a></Link>
@@ -44,7 +46,9 @@ export default function Artists() {
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="bg-gray-100">
-                            <img className="h-40 w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?cellist" alt="content" />
+                                <picture>
+                                    <img className="h-40 w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?cellist" alt="content" />
+                                </picture>
                                 <div className="px-6 pb-6">
                                     <h3 className="tracking-widest gold text-xs font-medium title-font">SUBTITLE</h3>
                                     <Link href={`/artists/chicen-itza`}><a className="gold hover:text-red"><h2 className="text-lg text-black font-medium title-font mb-4">Vasco Dantes</h2></a></Link>
@@ -54,7 +58,9 @@ export default function Artists() {
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="bg-gray-100">
-                            <img className="h-40 w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?flutist" alt="content" />
+                                <picture>
+                                    <img className="h-40 w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?flutist" alt="content" />
+                                </picture>
                                 <div className="px-6 pb-6">
                                     <h3 className="tracking-widest gold text-xs font-medium title-font">SUBTITLE</h3>
                                     <Link href={`/artists/chicen-itza`}><a className="gold hover:text-red"><h2 className="text-lg text-black font-medium title-font mb-4">Natahsha Grujic</h2></a></Link>
@@ -64,7 +70,9 @@ export default function Artists() {
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 p-4">
                             <div className="bg-gray-100">
-                            <img className="h-40 w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?percussionist" alt="content" />
+                                <picture>
+                                    <img className="h-40 w-full object-cover object-center mb-6" src="https://source.unsplash.com/600x450/?percussionist" alt="content" />
+                                </picture>
                                 <div className="px-6 pb-6">
                                     <h3 className="tracking-widest gold text-xs font-medium title-font">SUBTITLE</h3>
                                     <Link href={`/artists/chicen-itza`}><a className="gold hover:text-red"><h2 className="text-lg text-black font-medium title-font mb-4">Ketevan Roninishvilli</h2></a></Link>

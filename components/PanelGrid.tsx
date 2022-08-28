@@ -1,12 +1,11 @@
 import Image from 'next/image';
 import imageLoader from '../imageLoader';
 
-interface Panel{
+interface IPanel {
     panelGridTitle?: string 
 }
 
-
-const PanelGrid = ({ panelGridTitle }:Panel) => {
+const PanelGrid = ({ panelGridTitle }: IPanel ) => {
     return(
         <section className="text-white-600 body-font">
             <div className="container px-5 pb-24 mx-auto">
