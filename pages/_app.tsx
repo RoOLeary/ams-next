@@ -14,7 +14,6 @@ function AlgarveMusicSeries({ Component, pageProps }: AppProps): JSX.Element {
   useEffect(() => {
 
     const handleStart = () => {
-      console.log(`Loading...`)
       document.body.className = '';
     }
 
