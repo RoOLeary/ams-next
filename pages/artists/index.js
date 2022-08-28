@@ -47,8 +47,7 @@ export default function Artists() {
 
     let l18n = dummy.filter((h) => h.locale === locale); 
     let dmTitle = dummyTitle.filter((d) => d.locale === locale);
-    console.log(dmTitle[0].editionTitle);
-
+    
     return(
         <Layout>
             <PageHeader title="Artists" headerContent={l18n} />

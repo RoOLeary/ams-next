@@ -2,8 +2,6 @@ import Layout from './../components/Layout';
 import PageHeader from '../components/PageHeader';
 import TextVisual from './../components/TextVisual';
 import Faq from './../components/Faqs/Faq';
-import { useRouter } from 'next/router';
-
 
 export default function About() {
   
@@ -26,7 +24,6 @@ export default function About() {
             <PageHeader title="About Us" headerContent={aboutContent} />
             <TextVisual />
             <br />
-   
             <Faq />
             <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center">
                 <div className="flex flex-col sm:flex-row mt-10">
