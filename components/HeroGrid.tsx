@@ -38,7 +38,7 @@ const HeroGrid = () => {
                     <div className="md:p-2 p-1 w-1/2">
                         <Link href={'/artists'}>
                             <a>
-                                <Image loader={imageLoader} alt="gallery" className="w-full object-cover h-full object-center block" src="./../../assets/images/cellos.jpeg" width={500} height={300} priority={true} />
+                                <Image loader={imageLoader} alt="gallery" className="w-full object-cover h-full object-center block" src="./../../assets/images/strings.jpeg" width={500} height={300} priority={true} />
                             </a>
                         </Link>
                     </div>
