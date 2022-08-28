@@ -56,7 +56,7 @@ const Nav = (): JSX.Element => {
     const handleClick = () => {
         // console.log(active)
         setActive(!active)
-        document.body.className = active ? 'navIsClosed' : 'navIsOpen';
+        document.body.className = active ? '' : 'navIsOpen';
         
     }
 
