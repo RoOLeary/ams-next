@@ -19,9 +19,9 @@ export default function Home() {
     <Layout>
       <HomeHeader title={home[0].title} editionDetails={home[0].editionDetails} />
       <HeroGrid />
-      <PanelGrid />
-      <Signup content={'signup'}/>
-      <Featured />
+      <PanelGrid panelGridTitle={home[0].panelGridTitle} />
+      <Signup signUpTitle={home[0].signUpTitle} />
+      <Featured featuredTitle={home[0].featuredTitle} featuredContent={home[0].featuredContent}/>
       <Banner title={'Home Banner'} />
       <TextVisual />
       <br />
