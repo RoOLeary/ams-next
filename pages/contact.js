@@ -2,7 +2,7 @@ import Layout from '../components/Layout';
 import PageHeader from '../components/PageHeader';
 import TextVisual from '../components/TextVisual';
 
-export default function Contact():JSX.Element{
+export default function Contact(){
    
     let contactText =[
         {
