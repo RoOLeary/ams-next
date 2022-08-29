@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { useRef, useState } from 'react';
 import { useRouter } from 'next/router'; 
 import { isActiveLink } from '../lib/utils'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 const links: { name: string; ptName: string, href: string }[] = [
     {
@@ -89,7 +89,7 @@ const Nav = (): JSX.Element => {
 
             <div className={`${active ? 'mobileNav' : 'hidden'} w-full lg:inline-flex lg:flex-grow lg:w-auto`}>
                 <div className='lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto'>
-                    <AnimatePresence>
+                    
                     {links.map(({ name, ptName, href }, i) => (
                         <Link key={i} href={`/${locale}${href}`}>
                             <a className={router.pathname == href ? "mr-5 gold mobLink" : "mr-5 mobLink"}>
@@ -104,7 +104,7 @@ const Nav = (): JSX.Element => {
                             </a>
                         </Link>
                     ))}
-                    </AnimatePresence>
+                    
                     <a href={`/${locale === 'pt' ? 'en' : 'pt' }`}>{locale === 'pt' ? 'EN' : '🇵🇹'}</a>
                 </div>
             </div>
