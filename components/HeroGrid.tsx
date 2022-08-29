@@ -13,6 +13,7 @@ const variants = {
 };
 
 
+
 const HeroGrid = () => {
 
     const { scrollY } = useScroll();
