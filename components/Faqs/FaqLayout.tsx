@@ -1,7 +1,17 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { IFaqs } from '../../interfaces/IFaq'
 
-const FaqLayout = ({ title, children, index, activeIndex, setActiveIndex }) => {
+interface IFaqLayout {
+    title?: string,
+    children?: any,
+    index?: number,
+    activeIndex?: number, 
+    setActiveIndex?: Function
+}
+
+
+const FaqLayout = ({ title, children, index, activeIndex, setActiveIndex }: IFaqLayout) => {
 
     const handleSetIndex = (index) => (activeIndex !== index) && setActiveIndex(index);
 
