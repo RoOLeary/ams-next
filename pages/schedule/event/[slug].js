@@ -3,20 +3,23 @@ import Layout from './../../../components/Layout';
 import PageHeader from '../../../components/PageHeader';
 import HeroGrid from '../../../components/HeroGrid';
 import Ticket from './../../../components/Ticket';
+import { useRouter } from 'next/router'; 
 
 const EventSingle = () => {
-    
+    const router = useRouter(); 
+    const query = router.query;
+    console.log(query.title)
+
     let aboutContent = [
         {
             "locale": "en",
-            "title": "Event Single",
-            "content": `Meggings portland fingerstache lyft, post-ironic fixie man bun banh mi umami everyday carry hexagon locavore direct trade art party. Locavore small batch listicle gastropub farm-to-table  salvia messenger bag. Coloring book flannel truffaut craft beer drinking vinegar sartorial, disrupt fashion axe normcore meh butcher. Portland 90's scenester vexillologist forage post-ironic asymmetrical, chartreuse disrupt butcher paleo intelligentsia pabst before they sold out four loko. 3 wolf moon brooklyn
-            Meggings portland fingerstache lyft, post-ironic fixie man bun banh mi umami everyday carry hexagon locavore direct trade art party. Locavore small batch listicle gastropub farm-to-table  salvia messenger bag. Coloring book flannel truffaut craft beer drinking vinegar sartorial, disrupt fashion axe normcore meh butcher. Portland 90's scenester vexillologist forage post-ironic asymmetrical, chartreuse disrupt butcher paleo intelligentsia pabst before they sold out four loko. 3 wolf moon brooklyn`
+            "title": query.title,
+            "content": query.detail
         },
         {
             "locale": "pt",
-            "title": "Event Single",
-            "content": "Esta es la primera entrada del blog en español publicada en el blog",
+            "title": query.title,
+            "content": query.detail
         }
     ];
 

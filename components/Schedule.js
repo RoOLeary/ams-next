@@ -40,9 +40,9 @@ const Schedule = () => {
             "id": 4,
             "category": "Piano",
             "date": "13-10-22",
-            "title":  "Vasco Dantes",
+            "title":  "Vasco Dantes Piano Recital",
             "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
-            "detail": "",
+            "detail": "Vasco Dantes Piano Recital",
             "location": "Club Farense, Faro",
             "url": 'vasco-dantes'
         },
@@ -78,6 +78,7 @@ const Schedule = () => {
                 <div className="-my-8 divide-y-2 divide-gray-100">
 
                 {events.length && events.map(({id, category, date, title, excerpt, detail, location, url}) => {
+                    console.log(title)
                     return(
                         <div className="py-8 flex flex-wrap md:flex-nowrap" key={id}>
                             <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
@@ -85,10 +86,16 @@ const Schedule = () => {
                             <span className="mt-1 text-white-500 text-sm">{date}</span>
                             </div>
                             <div className="md:flex-grow">
-                            <Link href={`schedule/event/${url}`}><a><h2 className="text-2xl font-medium gold title-font mb-2">{title}</h2></a></Link>
+
+                            <Link href={{ pathname: `schedule/event/${url}`, query: { title: title, detail: detail } }}>
+                                <a><h2 className="text-2xl font-medium gold title-font mb-2">{title}</h2></a>
+                            </Link>
+
+
+                            {/* s<Link href={`schedule/event/${url}`}><a><h2 className="text-2xl font-medium gold title-font mb-2">{title}</h2></a></Link> */}
                             <p className="leading-relaxed">{excerpt}</p>
-                            <Link href={`schedule/event/${url}`}>
-                                <a className="gold inline-flex items-center mt-4">Learn More
+                            <Link href={{ pathname: `schedule/event/${url}`, query: { title: title, detail: detail } }}>
+                                <a className="gold inline-flex items-center mt-4">More Info
                                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                     <path d="M5 12h14"></path>
                                     <path d="M12 5l7 7-7 7"></path>
