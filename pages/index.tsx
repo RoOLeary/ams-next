@@ -19,9 +19,6 @@ export default function Home() {
       <PanelGrid />
       <Signup />
       <Featured />
-      {/* <div className="w-full h-auto border-black bg-white flex justify-end">
-          <Image loader={imageLoader} alt="Banner Image" src="https://algarvemusicseries.com/wp-content/uploads/2019/11/music.jpeg" className="relative block w-full h-full object-cover -mt-12" width={1200} height={480}/>     
-      </div> */}
       <Banner title={'Home Banner'} />
       <TextVisual />
       <br />
