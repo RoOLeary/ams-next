@@ -34,7 +34,7 @@ const Schedule = () => {
             "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
             "detail": "",
             "location": "Igreja de São Pedro, Faro",
-            "url": 'page.html'
+            "url": 'variacoes-goldberg'
         },
         {
             "id": 4,
@@ -44,7 +44,7 @@ const Schedule = () => {
             "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
             "detail": "",
             "location": "Club Farense, Faro",
-            "url": 'page'
+            "url": 'vasco-dantes'
         },
         {
             "id": 5,
@@ -54,7 +54,7 @@ const Schedule = () => {
             "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
             "detail": "",
             "location": "Club Farense, Faro",
-            "url": 'page'
+            "url": 'proposta-recital-conversa-francisco-rita'
         },
         {
             "id": 6,
@@ -64,7 +64,7 @@ const Schedule = () => {
             "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
             "detail": "",
             "location": "Club Farense, Faro",
-            "url": 'page'
+            "url": 'club-farense'
         }
 
     ]
