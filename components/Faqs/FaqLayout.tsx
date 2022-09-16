@@ -1,13 +1,17 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { IFaqs } from '../../interfaces/IFaq'
 
-const variants = {
-    hidden: { scale: 0, x: 0, y: 0 },
-    enter: { scale: 1, x: 0, y: 0 },
-    exit: { scale: 0, x: 0, y: 0 },
+interface IFaqLayout {
+    title?: string,
+    children?: any,
+    index?: number,
+    activeIndex?: number, 
+    setActiveIndex?: Function
 }
 
-const FaqLayout = ({ title, children, index, activeIndex, setActiveIndex }) => {
+
+const FaqLayout = ({ title, children, index, activeIndex, setActiveIndex }: IFaqLayout) => {
 
     const handleSetIndex = (index) => (activeIndex !== index) && setActiveIndex(index);
 
@@ -34,6 +38,7 @@ const FaqLayout = ({ title, children, index, activeIndex, setActiveIndex }) => {
             
             {(activeIndex === index) && (
                 <motion.div
+                    initial={{ opacity: 0 }}
                     animate={{ opacity: [0, 1] }}
                     transition={{ times: [0, 1], duration: 0.5 }}
                     className="flex w-full bg-lightgray-200 p-4 mb-6"

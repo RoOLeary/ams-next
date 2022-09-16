@@ -1,10 +1,10 @@
-import Layout from './../components/Layout';
+import Layout from '../components/Layout';
 import PageHeader from '../components/PageHeader';
-import TextVisual from './../components/TextVisual';
+import TextVisual from '../components/TextVisual';
+import contactText from '../lib/data/contactContent';
 
-export default function Contact(){
-    let contactText = `Meggings portland fingerstache lyft, post-ironic fixie man bun banh mi umami everyday carry hexagon locavore direct trade art party. Locavore small batch listicle gastropub farm-to-table lumbersexual salvia messenger bag. Coloring book flannel truffaut craft beer drinking vinegar sartorial, disrupt fashion axe normcore meh butcher. Portland 90's scenester vexillologist forage post-ironic asymmetrical, chartreuse disrupt butcher paleo intelligentsia pabst before they sold out four loko. 3 wolf moon brooklyn.`; 
-
+export default function Contact({ data }) {
+   
     return(
         <Layout>
             <PageHeader title="Contact Us" headerContent={contactText} />
@@ -24,7 +24,7 @@ export default function Contact(){
                         <label htmlFor="message" className="leading-7 text-sm text-black">Message</label>
                         <textarea id="message" name="message" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-white-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
                     </div>
-                    <button className="text-white bg-goldenrod border-0 py-2 px-6 focus:outline-none hover:bg-goldenrod rounded text-lg">Button</button>
+                    <button className="text-white bg-goldenrod border-0 py-2 px-6 focus:outline-none hover:bg-goldenrod rounded text-lg hover:bg-gray-100 hover:text-black">Button</button>
                     <p className="text-xs text-white-500 mt-3">We will not pass your data to third parties.</p>
                     </div>
                 </div>
