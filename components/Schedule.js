@@ -55,16 +55,38 @@ const Schedule = () => {
             "category": "Piano",
             "date": "13-10-22",
             "time": "21:00",
-            "title":  "Vasco Dantes Piano Recital",
+            "title":  "Vasco Dantas Piano Recital",
             "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
-            "detail": "Vasco Dantes Piano Recital",
+            "detail": "Vasco Dantas Piano Recital",
             "location": "Club Farense, Faro",
-            "url": 'vasco-dantes'
+            "url": 'vasco-dantas'
         },
         {
             "id": 6,
             "category": "Piano",
             "date": "14-10-22",
+            "time": "21:00",
+            "title":  "Piano Recital - Francisco Rita",
+            "excerpt": "GProgram - own compositions by Francisco Rita in recital commented and also played by Francisco",
+            "detail": "",
+            "location": "Club Farense, Faro",
+            "url": 'piano-recital-francisco-rita'
+        },
+        {
+            "id": 6,
+            "category": "Piano",
+            "date": "15-10-22",
+            "time": "21:00",
+            "title":  "Proposta Recital & Conversa – Francisco Rita",
+            "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
+            "detail": "",
+            "location": "Club Farense, Faro",
+            "url": 'proposta-recital-conversa-francisco-rita'
+        },
+        {
+            "id": 6,
+            "category": "Piano",
+            "date": "16-10-22",
             "time": "21:00",
             "title":  "Proposta Recital & Conversa – Francisco Rita",
             "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
@@ -94,13 +116,14 @@ const Schedule = () => {
                 {/* <div className="h-1 overflow-hidden mb-8"><div className="h-1 w-20 bg-goldenrod"></div></div> */}
                 <div className="-my-8 divide-y-2 divide-gray-100">
 
-                {events.length && events.map(({id, category, date, title, excerpt, detail, location, url}) => {
+                {events.length && events.map(({id, category, date, time, title, excerpt, detail, location, url}) => {
                     console.log(title)
                     return(
                         <div className="py-8 flex flex-wrap md:flex-nowrap" key={id}>
                             <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                             <span className="font-semibold title-font text-white-700">{location}</span>
                             <span className="mt-1 text-white-500 text-sm">{date}</span>
+                            <span className="mt-1 text-white-500 text-sm">{time}</span>
                             </div>
                             <div className="md:flex-grow">
 
