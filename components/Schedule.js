@@ -136,7 +136,7 @@ const Schedule = () => {
                             </div>
                             <div className="md:flex-grow">
 
-                            <Link href={{ pathname: `schedule/event/${url}`, query: { title: title, detail: detail } }}>
+                            <Link href={`schedule/event/${url}`}>
                                 <a><h2 className="text-2xl font-medium gold title-font mb-2">{title}</h2></a>
                             </Link>
 

@@ -15,7 +15,7 @@ const EventSingle = () => {
         },
         {
             "locale": "pt",
-            "title": "Variações Goldber",
+            "title": "Variações Goldberg",
             // "content": query.detail
         }
     ];
@@ -25,7 +25,7 @@ const EventSingle = () => {
             <PageHeader title={aboutContent.title} headerContent={aboutContent} />
             <br />
             <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center">
-                <Ticket />
+                <Ticket description={'Variações Goldberg'}/>
             </div>
             <Banner title={'Event Banner'} />
         </Layout>

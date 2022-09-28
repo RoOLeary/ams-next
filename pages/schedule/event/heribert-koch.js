@@ -12,13 +12,13 @@ const EventSingle = () => {
     let aboutContent = [
         {
             "locale": "en",
-            "title": "Bach, Beethoven and Brahms",
-            "content": query.detail
+            "title": "Piano Recital - Heribert Koch",
+            "content": "Bach, Beethoven and Brahms",
         },
         {
             "locale": "pt",
-            "title": "Bach, Beethoven and Brahms",
-            "content": query.detail
+            "title": "Piano Recital - Heribert Koch",
+            "content": "Bach, Beethoven and Brahms",
         }
     ];
 
@@ -27,7 +27,7 @@ const EventSingle = () => {
             <PageHeader title={aboutContent.title} headerContent={aboutContent} />
             <br />
             <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center">
-                <Ticket />
+                <Ticket description={'Piano Recital - Heribert Koch'}/>
             </div>
             <Banner title={'Event Banner'} />
         </Layout>
