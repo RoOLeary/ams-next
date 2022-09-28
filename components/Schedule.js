@@ -40,7 +40,7 @@ const Schedule = () => {
             "excerpt": "Colégio do Alto",
             "detail": "",
             "location": "Colégio do Alto",
-            "url": 'quartet-exposition'
+            "url": 'sefarad-project-filipe-raposo-coro-ecce'
         },
         {
             "id": 4,
@@ -64,7 +64,7 @@ const Schedule = () => {
             "excerpt": "",
             "detail": "Vasco Dantas Piano Recital",
             "location": "Club Farense, Faro",
-            "url": 'vasco-dantas'
+            "url": 'from-water-to-wine'
         },
         {
             "id": 6,
@@ -76,34 +76,34 @@ const Schedule = () => {
             "excerpt": "GProgram - own compositions by Francisco Rita in recital commented and also played by Francisco",
             "detail": "",
             "location": "Club Farense, Faro",
-            "url": 'piano-recital-francisco-rita'
+            "url": 'heroes-of-the-sea'
         },
         {
-            "id": 6,
+            "id": 7,
             "category": "Piano",
             "date": "15-10-22",
             "time": "21:00",
-            "price": "€10 / €8 - members",
-            "title":  "Proposta Recital & Conversa – Francisco Rita",
+            "price": "€8 / €5 - members",
+            "title":  "Homage to Isolino Vaz - centenary 1922-2022",
             "excerpt": "",
             "detail": "",
-            "location": "Club Farense, Faro",
-            "url": 'proposta-recital-conversa-francisco-rita'
+            "location": "Ginásio Clube de Faro",
+            "url": 'homage-to-isolino-vaz-centenary'
         },
         {
-            "id": 6,
+            "id": 8,
             "category": "Piano",
             "date": "16-10-22",
             "time": "21:00",
             "price": "€10 / €8 - members",
-            "title":  "Proposta Recital & Conversa – Francisco Rita",
+            "title":  "Vasco Dantas, piano recital - From Water to Wine",
             "excerpt": "",
             "detail": "",
-            "location": "Club Farense, Faro",
-            "url": 'proposta-recital-conversa-francisco-rita'
+            "location": "Quintinha da Música, Tavira",
+            "url": 'from-water-to-wine'
         },
         {
-            "id": 7,
+            "id": 9,
             "category": "Piano",
             "date": "21-10-22",
             "time": "21:00",
@@ -112,7 +112,7 @@ const Schedule = () => {
             "excerpt": "Bach, Beethoven and Brahms",
             "detail": "",
             "location": "Club Farense, Faro",
-            "url": 'club-farense'
+            "url": 'heribert-koch'
         }
 
     ]
@@ -143,7 +143,7 @@ const Schedule = () => {
 
                             {/* s<Link href={`schedule/event/${url}`}><a><h2 className="text-2xl font-medium gold title-font mb-2">{title}</h2></a></Link> */}
                             <p className="leading-relaxed">{excerpt}</p>
-                            <Link href={{ pathname: `schedule/event/${url}`, query: { title: title, detail: detail } }}>
+                            <Link href={`schedule/event/${url}`}>
                                 <a className="gold inline-flex items-center mt-4">More Info
                                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                     <path d="M5 12h14"></path>
