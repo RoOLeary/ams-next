@@ -16,7 +16,7 @@ const Schedule = (props) => {
             "excerpt": "Bach, Vivaldi, traditional music",
             "detail": "",
             "location": "Igreja do Carmo, Faro",
-            "slug": 'colonge-guitar-quartet'
+            "slug": 'cologne-guitar-quartet'
         },
         {
             "id": 2,
