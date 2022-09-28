@@ -37,14 +37,14 @@ const HeroGrid = () => {
                 <div className="flex flex-wrap md:-m-2 -m-1">
                 <div className="flex flex-wrap w-1/2">
                     <div className="md:p-2 p-1 w-1/2">
-                        <Link href={'/artists'}>
+                        <Link href={'/about'}>
                             <a>
                                 <Image loader={imageLoader} alt="gallery" className="w-full object-cover h-full object-center block" src="./../../assets/images/strings.jpeg" width={500} height={300} priority={true} />
                             </a>
                         </Link>
                     </div>
                     <div className="md:p-2 p-1 w-1/2">
-                        <Link href={'/about'}>
+                        <Link href={'/artists'}>
                             <a><Image loader={imageLoader} alt="gallery-image" className="w-full object-cover h-full object-center block" src="./../../assets/images/cellos.jpeg" width={500} height={300} priority={true}/></a>
                         </Link>
                     </div>
@@ -56,7 +56,7 @@ const HeroGrid = () => {
                 </div>
                 <div className="flex flex-wrap w-1/2">
                     <div className="md:p-2 p-1 w-full">
-                        <Link href={'/masterclasses'}>
+                        <Link href={'/tickets'}>
                             <a><Image loader={imageLoader} alt="gallery-image" className="w-full h-full object-cover object-center block" src="./../../assets/images/ams-home3.jpeg" width={850} height={400} priority={true} /></a>
                         </Link>
                     </div>
