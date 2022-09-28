@@ -2,6 +2,10 @@
 import { ITickets } from '../interfaces/ITickets'
 
 const Ticket = ({ title, description, price }: ITickets) => {
+
+    console.log('price: ', price);
+    console.log('description: ', description);
+
     return(
         <div className="singleTicket sm:mt-4">
             <div className="sm:w-full lg:w-full w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
@@ -13,10 +17,14 @@ const Ticket = ({ title, description, price }: ITickets) => {
                     <a className="flex-grow gold py-2 text-lg">Event Description</a>
                 </div>
                 <p className="leading-relaxed mb-4">{description ? description : 'Event Description to follow.'}</p>
+                
+                {price === "free" ? 'Ticket Details' :
+                
                 <div className="flex">
-                    <span className="title-font font-medium text-2xl text-white">€{price ? price : 10}</span>
+                    <span className="title-font font-medium text-2xl text-white">{price ? `€${price}` : '€10'}</span>
                     <button className="flex ml-auto text-white bg-goldenrod border-0 py-2 px-6 focus:outline-none hover:bg-white hover:text-black rounded">Buy Now</button>
                 </div>
+                }
             </div>
         </div>
     )    

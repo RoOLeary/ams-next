@@ -11,12 +11,12 @@ const Schedule = (props) => {
             "category": "Guitar",
             "date": "04-10-22",
             "time": "21:00",
-            "price": "€10 / €8 - members",
+            "price": "free",
             "title":  "Cologne Guitar Quartet",
             "excerpt": "Bach, Vivaldi, traditional music",
             "detail": "",
             "location": "Igreja do Carmo, Faro",
-            "url": 'colonge-guitar-quartet'
+            "slug": 'colonge-guitar-quartet'
         },
         {
             "id": 2,
@@ -28,7 +28,7 @@ const Schedule = (props) => {
             "excerpt": "Bohuslav Martinu - Three Madrigals for violin and viola, Handel/Halvorsen - Passacaglia",
             "detail": "",
             "location": "Teatro Lethes, Faro",
-            "url": 'chopin-piano-concerto-1'
+            "slug": 'chopin-piano-concerto-1'
         },
         {
             "id": 3,
@@ -40,7 +40,7 @@ const Schedule = (props) => {
             "excerpt": "Colégio do Alto",
             "detail": "",
             "location": "Colégio do Alto",
-            "url": 'sefarad-project-filipe-raposo-coro-ecce'
+            "slug": 'sefarad-project-filipe-raposo-coro-ecce'
         },
         {
             "id": 4,
@@ -52,7 +52,7 @@ const Schedule = (props) => {
             "excerpt": "",
             "detail": "",
             "location": "Igreja de São Pedro, Faro",
-            "url": 'variacoes-goldberg'
+            "slug": 'variacoes-goldberg'
         },
         {
             "id": 5,
@@ -64,7 +64,7 @@ const Schedule = (props) => {
             "excerpt": "",
             "detail": "Vasco Dantas Piano Recital",
             "location": "Club Farense, Faro",
-            "url": 'from-water-to-wine'
+            "slug": 'from-water-to-wine'
         },
         {
             "id": 6,
@@ -76,7 +76,7 @@ const Schedule = (props) => {
             "excerpt": "GProgram - own compositions by Francisco Rita in recital commented and also played by Francisco",
             "detail": "",
             "location": "Club Farense, Faro",
-            "url": 'heroes-of-the-sea'
+            "slug": 'heroes-of-the-sea'
         },
         {
             "id": 7,
@@ -88,7 +88,7 @@ const Schedule = (props) => {
             "excerpt": "",
             "detail": "",
             "location": "Ginásio Clube de Faro",
-            "url": 'homage-to-isolino-vaz-centenary'
+            "slug": 'homage-to-isolino-vaz-centenary'
         },
         {
             "id": 8,
@@ -100,7 +100,7 @@ const Schedule = (props) => {
             "excerpt": "",
             "detail": "",
             "location": "Quintinha da Música, Tavira",
-            "url": 'from-water-to-wine'
+            "slug": 'from-water-to-wine'
         },
         {
             "id": 9,
@@ -112,7 +112,7 @@ const Schedule = (props) => {
             "excerpt": "Bach, Beethoven and Brahms",
             "detail": "",
             "location": "Club Farense, Faro",
-            "url": 'heribert-koch'
+            "slug": 'heribert-koch'
         }
 
     ]
@@ -125,7 +125,7 @@ const Schedule = (props) => {
                 {/* <div className="h-1 overflow-hidden mb-8"><div className="h-1 w-20 bg-goldenrod"></div></div> */}
                 <div className="-my-8 divide-y-2 divide-gray-100">
 
-                {events.length && events.map(({id, category, date, time, title, excerpt, detail, location, url}) => {
+                {events.length && events.map(({id, category, date, time, price, title, excerpt, detail, location, slug}) => {
                     console.log(title)
                     return(
                         <div className="py-8 flex flex-wrap md:flex-nowrap" key={id}>
@@ -136,14 +136,14 @@ const Schedule = (props) => {
                             </div>
                             <div className="md:flex-grow">
 
-                            <Link href={`schedule/event/${url}`}>
+                            <Link href={`schedule/event/${slug}`}>
                                 <a><h2 className="text-2xl font-medium gold title-font mb-2">{title}</h2></a>
                             </Link>
 
 
-                            {/* s<Link href={`schedule/event/${url}`}><a><h2 className="text-2xl font-medium gold title-font mb-2">{title}</h2></a></Link> */}
+                            {/* s<Link href={`schedule/event/${slug}`}><a><h2 className="text-2xl font-medium gold title-font mb-2">{title}</h2></a></Link> */}
                             <p className="leading-relaxed">{excerpt}</p>
-                            <Link href={`schedule/event/${url}`}>
+                            <Link href={`schedule/event/${slug}`}>
                                 <a className="gold inline-flex items-center mt-4">More Info
                                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                     <path d="M5 12h14"></path>
