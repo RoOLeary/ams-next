@@ -9,8 +9,8 @@ export default function About() {
     return(
         <Layout>
             <PageHeader title="About Us" headerContent={aboutContent} />
-            <TextVisual />
-            <br />
+            {/* <TextVisual />
+            <br /> */}
             <Faq />
             <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center">
                 <div className="flex flex-col sm:flex-row mt-10">

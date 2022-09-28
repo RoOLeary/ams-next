@@ -30,11 +30,11 @@ const links: { name: string; ptName: string, href: string }[] = [
         ptName: 'Ingressos',
         href: '/tickets',
     },
-    {
-        name: 'Master Classes',
-        ptName: 'Classe mestres',
-        href: '/masterclasses',
-    },
+    // {
+    //     name: 'Master Classes',
+    //     ptName: 'Classe mestres',
+    //     href: '/masterclasses',
+    // },
     {
         name: 'FAQ',
         ptName: 'FAQ',

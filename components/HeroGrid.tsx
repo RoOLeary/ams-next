@@ -29,7 +29,7 @@ const HeroGrid = () => {
     Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom.`;
     return(
         <section className="text-white-600 body-font">
-            <div className="container px-5 pb-24 mx-auto flex flex-wrap">
+            <div className="container px-5 mx-auto flex flex-wrap">
                 {/* <div className="flex w-full mb-20 flex-wrap">
                 <h1 className="sm:text-4xl text-4xl font-medium title-font text-white-900 lg:w-1/3 lg:mb-0 mb-4">Algarve Music Series</h1>
                 <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base" dangerouslySetInnerHTML={{ __html: content }} />

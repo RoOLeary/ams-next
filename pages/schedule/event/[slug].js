@@ -25,7 +25,7 @@ const EventSingle = () => {
 
     return(
         <Layout>
-            <PageHeader title="Event Single Instance" headerContent={aboutContent} />
+            <PageHeader title={query.title ? query.title : "Concert"} headerContent={aboutContent} />
             <br />
             <HeroGrid />
             <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center">
