@@ -15,7 +15,7 @@ import scheduleContent from '../lib/data/scheduleContent';
 export default function Home() {
   const { locale } = useRouter();
   const home = homeContent && homeContent.filter((h) => h.locale === locale); 
-
+  
   return (
     <Layout>
       <HomeHeader title={home[0].title} editionDetails={home[0].editionDetails} />
@@ -25,13 +25,13 @@ export default function Home() {
           <p className="lg:w-2/3 mx-auto leading-relaxed text-gray-400 text-base"></p>
       </div> */}
       <div className="container px-5 pt-24 mx-auto">
-          <h1 className="generalPageTitle">{scheduleContent[0].title}</h1>
+          <h1 className="generalPageTitle">{home[0].scheduleTitle}</h1>
           <div className="h-1 overflow-hidden pb-8">
               <div className="h-1 w-20 bg-goldenrod"></div>
           </div>
-          <p className="leading-relaxed text-lg mb-4" dangerouslySetInnerHTML={{ __html: scheduleContent[0].content }} />
+          <p className="leading-relaxed text-lg mb-4" dangerouslySetInnerHTML={{ __html: home[0].scheduleIntro }} />
       </div>
-      <Schedule />
+      <Schedule content={home[0].scheduleTitle}/>
       <br />
       <Banner title={'Home Banner'} />
       <br />

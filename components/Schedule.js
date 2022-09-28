@@ -3,12 +3,12 @@
 
 import Link from 'next/link'
 
-const Schedule = () => {
-
+const Schedule = (props) => {
+    console.log(props);
     let events = [
         {
             "id": 1,
-            "category": "Guitart",
+            "category": "Guitar",
             "date": "04-10-22",
             "time": "21:00",
             "price": "€10 / €8 - members",

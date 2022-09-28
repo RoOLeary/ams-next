@@ -12,7 +12,7 @@ export default function SchedulePage() {
         <Layout>
             <PageHeader title="Schedule" headerContent={scheduleContent} />
             <br />
-            <Schedule />
+            <Schedule content={scheduleContent}/>
         </Layout>
     ) 
 }
