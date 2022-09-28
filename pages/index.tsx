@@ -40,10 +40,10 @@ export default function Home() {
       <br />
       <br />
       <Signup signUpTitle={home[0].signUpTitle} />
-      <br />
+      {/* <br />
       <Featured featuredTitle={home[0].featuredTitle} featuredContent={home[0].featuredContent}/>
-     
-      {/* <TextVisual /> */}
+      */}
+      <TextVisual />
       <br />
     </Layout>
   )

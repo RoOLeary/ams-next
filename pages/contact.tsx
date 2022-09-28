@@ -10,6 +10,7 @@ const Contact: NextPage = () => {
     const [result, setResult] = useState('');
 
     const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
+        setResult('Processing...maybe show a loader');
         e.preventDefault();
 
         let form = {
@@ -45,9 +46,11 @@ const Contact: NextPage = () => {
                 </div>
                 <div className="container px-5 py-24 mx-auto flex">
                     <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+                    
+                    {result ? result : 
+                    <>
                     <h2 className="text-black text-lg mb-1 font-medium title-font">Contact Us</h2>
                     <p className="leading-relaxed mb-5 text-black">To contact us, please add your email address and message below.</p>
-                    {result ? result : 
                     <form className="py-4 space-y-4" onSubmit={handleSubmit}>
                         <div className="relative mb-4">
                             <label htmlFor="email" className="leading-7 text-sm text-black">Email</label>
@@ -60,6 +63,7 @@ const Contact: NextPage = () => {
                         <button className="text-white bg-goldenrod border-0 py-2 px-6 focus:outline-none hover:bg-goldenrod rounded text-lg hover:bg-gray-100 hover:text-black">Button</button>
                         <p className="text-xs text-white-500 mt-3">We will not pass your data to third parties.</p>
                     </form>
+                    </>
                     }
                 </div>
             </div>

@@ -10,36 +10,36 @@ const links: { name: string; ptName: string, href: string }[] = [
         ptName: 'Casa',
         href: '/',
     },
-    {
-        name: 'About',
-        ptName: 'Sobré Nos',
-        href: '/about',
-    },
-    {
-        name: 'Artists',
-        ptName: 'Artistas',
-        href: '/artists',
-    },
-    {
-        name: 'Schedule',
-        ptName: 'Cronograma',
-        href: '/schedule',
-    },
-    {
-        name: 'Tickets',
-        ptName: 'Ingressos',
-        href: '/tickets',
-    },
+    // {
+    //     name: 'About',
+    //     ptName: 'Sobré Nos',
+    //     href: '/about',
+    // },
+    // {
+    //     name: 'Artists',
+    //     ptName: 'Artistas',
+    //     href: '/artists',
+    // },
+    // {
+    //     name: 'Schedule',
+    //     ptName: 'Cronograma',
+    //     href: '/schedule',
+    // },
+    // {
+    //     name: 'Tickets',
+    //     ptName: 'Ingressos',
+    //     href: '/tickets',
+    // },
     // {
     //     name: 'Master Classes',
     //     ptName: 'Classe mestres',
     //     href: '/masterclasses',
     // },
-    {
-        name: 'FAQ',
-        ptName: 'FAQ',
-        href: '/faq',
-    },
+    // {
+    //     name: 'FAQ',
+    //     ptName: 'FAQ',
+    //     href: '/faq',
+    // },
     {
         name: 'Contact',
         ptName: 'Contato',
