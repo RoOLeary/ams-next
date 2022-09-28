@@ -33,10 +33,16 @@ export default function Home() {
       </div>
       <Schedule />
       <br />
+      <Banner title={'Home Banner'} />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <Signup signUpTitle={home[0].signUpTitle} />
       <br />
       <Featured featuredTitle={home[0].featuredTitle} featuredContent={home[0].featuredContent}/>
-      <Banner title={'Home Banner'} />
+     
       {/* <TextVisual /> */}
       <br />
     </Layout>
