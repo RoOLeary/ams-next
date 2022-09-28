@@ -8,8 +8,20 @@ const Schedule = () => {
     let events = [
         {
             "id": 1,
+            "category": "Guitart",
+            "date": "04-10-22",
+            "time": "21:00",
+            "title":  "Cologne Guitar Quartet",
+            "excerpt": "Bach, Vivaldi, traditional music",
+            "detail": "",
+            "location": "Igreja do Carmo, Faro",
+            "url": 'colonge-guitar-quartet'
+        },
+        {
+            "id": 2,
             "category": "Piano",
             "date": "05-10-22",
+            "time": "21:00",
             "title":  "Chopin Piano Concerto nr 1",
             "excerpt": "Bohuslav Martinu - Three Madrigals for violin and viola, Handel/Halvorsen - Passacaglia",
             "detail": "",
@@ -17,9 +29,10 @@ const Schedule = () => {
             "url": 'chopin-piano-concerto-1'
         },
         {
-            "id": 2,
+            "id": 3,
             "category": "Quartet",
             "date": "06-10-22",
+            "time": "21:00",
             "title":  "SEFARAD PROJECT FILIPE RAPOSO and CORO ECCE",
             "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
             "detail": "",
@@ -27,9 +40,10 @@ const Schedule = () => {
             "url": 'quartet-exposition'
         },
         {
-            "id": 3,
+            "id": 4,
             "category": "Vocalist",
             "date": "07-10-22",
+            "time": "21:00",
             "title":  "Variacoes Goldberg - J.S. Bach",
             "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
             "detail": "",
@@ -37,9 +51,10 @@ const Schedule = () => {
             "url": 'variacoes-goldberg'
         },
         {
-            "id": 4,
+            "id": 5,
             "category": "Piano",
             "date": "13-10-22",
+            "time": "21:00",
             "title":  "Vasco Dantes Piano Recital",
             "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
             "detail": "Vasco Dantes Piano Recital",
@@ -47,9 +62,10 @@ const Schedule = () => {
             "url": 'vasco-dantes'
         },
         {
-            "id": 5,
+            "id": 6,
             "category": "Piano",
             "date": "14-10-22",
+            "time": "21:00",
             "title":  "Proposta Recital & Conversa – Francisco Rita",
             "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
             "detail": "",
@@ -57,9 +73,10 @@ const Schedule = () => {
             "url": 'proposta-recital-conversa-francisco-rita'
         },
         {
-            "id": 6,
+            "id": 7,
             "category": "Drums",
             "date": "21-10-22",
+            "time": "21:00",
             "title":  "Percussion",
             "excerpt": "Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.",
             "detail": "",

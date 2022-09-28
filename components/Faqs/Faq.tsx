@@ -1,7 +1,9 @@
 import { useState } from 'react';
 import FaqLayout from './FaqLayout';
+import { IFaqs } from '../../interfaces/IFaq'
 
-const Faq = () => {
+const Faq = ({ content }: IFaqs ) => {
+
     const [activeIndex, setActiveIndex] = useState(1);
 
     let faqs = [

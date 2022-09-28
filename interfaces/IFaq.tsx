@@ -1,5 +1,5 @@
 export interface IFaqs {
-    content: {
+    content?: {
       faqHeading: string
       faqLeadtext: string
       faqs: IQandA[]
