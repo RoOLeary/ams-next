@@ -1,6 +1,6 @@
 import ScheduleSlot from './ScheduleSlot';
 
-const Schedule = () => {
+const Schedule = (props) => {
     
     let events = [
         {
