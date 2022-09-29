@@ -9,7 +9,7 @@ const Ticket = ({ title, description, price }: ITickets) => {
     return(
         <div className="singleTicket sm:mt-4">
             <div className="sm:w-full lg:w-full w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0">
-                <h1 className="text-white text-3xl title-font font-medium mb-4">{title ? title : 'Ticket Information'}</h1>
+                <h1 className="text-white text-3xl title-font font-medium mb-4">{title ? title : 'Event & Ticket Information'}</h1>
                 <div className="h-1 overflow-hidden pb-8">
                     <div className="h-1 w-20 bg-goldenrod"></div>
                 </div>
