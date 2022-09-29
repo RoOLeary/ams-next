@@ -37,13 +37,9 @@ export default function Home() {
       <br />
       <br />
       <br />
-      <br />
-      <br />
       <Signup signUpTitle={home[0].signUpTitle} />
-      {/* <br />
-      <Featured featuredTitle={home[0].featuredTitle} featuredContent={home[0].featuredContent}/>
-      */}
-      <TextVisual />
+      <br />
+      <br />
       <br />
     </Layout>
   )

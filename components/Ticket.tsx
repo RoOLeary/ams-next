@@ -3,8 +3,8 @@ import { ITickets } from '../interfaces/ITickets'
 
 const Ticket = ({ title, description, price }: ITickets) => {
 
-    console.log('price: ', price);
-    console.log('description: ', description);
+    // console.log('price: ', price);
+    // console.log('description: ', description);
 
     return(
         <div className="singleTicket sm:mt-4">

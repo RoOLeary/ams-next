@@ -1,42 +1,37 @@
 import Image from 'next/image'; 
 import imageLoader from '../../../imageLoader';
-import Banner from '../../../components/Banner'; 
+import Banner from '../../../components/Banner' 
 import Layout from '../../../components/Layout';
 import PageHeader from '../../../components/PageHeader';
 import Ticket from '../../../components/Ticket';
 import { useRouter } from 'next/router'; 
 
-const EventSingle = () => {
-    const { locale } = useRouter();
+const EventSingle = (props) => {
    
+    const { router, locale } = useRouter();
+    console.log(props);
+
     let eventContent = [
         {
             "locale": "en",
-            "title": "Variações Goldberg",
+            "title": "Cologne Guitar Quartet",
             "content": "",
-            "price": "€10 / €8 (members)",
-            "detail": "",
-            "excerpt": "",
-            "location": "",
-            "slug": ""
+            "price": '€10 / €8 (members)'
         },
         {
             "locale": "pt",
-            "title": "Variações Goldberg",
+            "title": "Cologne Guitar Quartet",
             "content": "",
-            "price": "€10 / €8 (members)",
-            "detail": "",
-            "excerpt": "",
-            "location": "",
-            "slug": ""
+            "price": '€10 / €8 (members)'
         }
     ];
 
     const eCont = eventContent && eventContent.locale === locale;
-
+    
     return(
         <Layout>
             <PageHeader title={eCont.title} headerContent={eventContent} />
+            <br />
             <br />
             <section className="text-white-600 body-font">
                 <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
@@ -55,7 +50,7 @@ const EventSingle = () => {
                 </div>
             </section>
             <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center">
-                <Ticket description={'Variações Goldberg'} price={eventContent.price} />
+                <Ticket description={'Cologne Guitar Quartet'} price={eventContent.price} />
             </div>
             <Banner title={'Event Banner'} />
         </Layout>

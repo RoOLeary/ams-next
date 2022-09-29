@@ -1,3 +1,6 @@
+import Link from 'next/link';
+import Image from 'next/image';
+import imageLoader from '../../../imageLoader';
 import Banner from '../../../components/Banner' 
 import Layout from '../../../components/Layout';
 import PageHeader from '../../../components/PageHeader';
@@ -12,15 +15,23 @@ const EventSingle = () => {
             "locale": "en",
             "title": "Chopin Piano Concerto",
             "content": "",
-            "desc": "Chopin Piano Concertosss",
-            "price": "free"
+            "desc": "Chopin Piano Concerto",
+            "price": "free",
+            "detail": "Chopin Piano Concerto No.1",
+            "excerpt": "",
+            "location": "",
+            "slug": ""
         },
         {
             "locale": "pt",
             "title": "Chopin Piano Concerto",
             "content": "",
             "desc": "Chopin Piano Concertosss",
-            "price": "free"
+            "price": "free",
+            "detail": "Chopin Piano Concerto No.1",
+            "excerpt": "",
+            "location": "",
+            "slug": ""
         }
     ];
 
@@ -30,6 +41,22 @@ const EventSingle = () => {
         <Layout>
             <PageHeader title={eCont.title} headerContent={eventContent} />
             <br />
+            <section className="text-white-600 body-font">
+                <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+                    <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                        <div className="h-1 bg-white rounded overflow-hidden">
+                            <div className="h-1 w-20 bg-goldenrod"></div>
+                        </div>
+                        <br />
+                        <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white-900">Performers</h1>
+                        <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+                        
+                    </div>
+                    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                        <Image className={"object-cover object-center"} alt="hero" src="https://source.unsplash.com/600x450/?concert?tickets" loader={imageLoader} width={600} height={450} />
+                    </div>
+                </div>
+            </section>
             <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center">
                 <Ticket description={eCont.desc} price={eCont.price} />
             </div>
