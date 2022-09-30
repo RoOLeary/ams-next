@@ -52,16 +52,14 @@ const HeroGrid = () => {
                 </div>
                 <div className="flex flex-wrap w-1/2">
                     <div className="md:p-2 p-1 w-full">
-                        <Link href={'/tickets'}>
-                            <a><Image loader={imageLoader} alt="gallery-image" className="w-full h-full object-cover object-center block" src="./../../assets/images/ams-home3.jpeg" width={850} height={400} priority={true} /></a>
-                        </Link>
+                        <Image loader={imageLoader} alt="gallery-image" className="w-full h-full object-cover object-center block" src="./../../assets/images/ams-home3.jpeg" width={850} height={400} priority={true} />
                     </div>
                     
                     <div className="md:p-2 p-1 w-1/2">
-                    <a><Image loader={imageLoader} alt="gallery-image" className="w-full object-cover h-full object-center block" src="./../../assets/images/vasco-dantas.jpeg" width={500} height={300} /></a>
+                        <Image loader={imageLoader} alt="gallery-image" className="w-full object-cover h-full object-center block" src="./../../assets/images/vasco-dantas.jpeg" width={500} height={300} />
                     </div>
                     <div className="md:p-2 p-1 w-1/2">
-                        <a><Image loader={imageLoader} alt="gallery-image" className="w-full object-cover h-full object-center block" src="./../../assets/images/club-farense-faro.jpeg" width={500} height={300} /></a>
+                        <Image loader={imageLoader} alt="gallery-image" className="w-full object-cover h-full object-center block" src="./../../assets/images/club-farense-faro.jpeg" width={500} height={300} />
                     </div>
                 </div>
                 </div>

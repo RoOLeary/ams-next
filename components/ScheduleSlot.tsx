@@ -25,19 +25,17 @@ const ScheduleSlot = ({ id, title, date, time, price, excerpt, detail, location,
             </div>
             <div className="md:flex-grow">
 
-            <Link href={`schedule/event/${slug}`}>
-                <a><h2 className="text-2xl font-medium gold title-font mb-2">{title}</h2></a>
-            </Link>
-
+            <h2 className="text-2xl font-medium gold title-font mb-2">{title}</h2>
+            
             <p className="leading-relaxed">{excerpt}</p>
-            <Link href={`schedule/event/${slug}`}>
+            {/* <Link href={`schedule/event/${slug}`}>
                 <a className="gold inline-flex items-center mt-4">More Info
                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M5 12h14"></path>
                     <path d="M12 5l7 7-7 7"></path>
                     </svg>
                 </a>
-            </Link>
+            </Link> */}
             </div>
         </div>
 

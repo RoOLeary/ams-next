@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "components/Faqs/FaqLayout.js"  ],
+, "components/Faqs/FaqLayout.js", "pages/schedule/event/chopin-piano-concerto-1.js"  ],
   "exclude": [
     "node_modules"
   ]

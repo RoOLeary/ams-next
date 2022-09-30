@@ -37,7 +37,7 @@ export default function Home() {
       <br />
       <br />
       <br />
-      <Signup signUpTitle={home[0].signUpTitle} />
+      {/* <Signup signUpTitle={home[0].signUpTitle} /> */}
       <br />
       <br />
       <br />
