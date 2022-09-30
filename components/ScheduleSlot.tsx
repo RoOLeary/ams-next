@@ -22,11 +22,13 @@ const ScheduleSlot = ({ id, title, date, time, price, excerpt, detail, location,
                 <span className="font-semibold title-font text-white-700">{location}</span>
                 <span className="mt-1 text-white-500 text-sm">{date}</span>
                 <span className="mt-1 text-white-500 text-sm">{time}</span>
+                <span className="mt-1 text-white-500 text-sm">{price == "free" && "Free"}</span>
+                
             </div>
             <div className="md:flex-grow">
 
             <h2 className="text-2xl font-medium gold title-font mb-2">{title}</h2>
-            
+
             <p className="leading-relaxed">{excerpt}</p>
             {/* <Link href={`schedule/event/${slug}`}>
                 <a className="gold inline-flex items-center mt-4">More Info
