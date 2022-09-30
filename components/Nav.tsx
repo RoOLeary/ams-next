@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 const links: { name: string; ptName: string, href: string }[] = [
     {
         name: 'Home',
-        ptName: 'Casa',
+        ptName: 'Home',
         href: '/',
     },
     // {
@@ -42,7 +42,7 @@ const links: { name: string; ptName: string, href: string }[] = [
     // },
     {
         name: 'Contact',
-        ptName: 'Contato',
+        ptName: 'Contacto',
         href: '/contact',
     },
 ]
