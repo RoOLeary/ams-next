@@ -10,7 +10,7 @@ const Contact: NextPage = () => {
     const [result, setResult] = useState('');
 
     const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
-        setResult('Processing...maybe show a loader');
+        setResult('Processing...');
         e.preventDefault();
 
         let form = {
@@ -29,8 +29,7 @@ const Contact: NextPage = () => {
         });
         const content = await rawResponse.json();
         // print to screen
-        console.log(content.data.tableRange)
-
+        // console.log(content.data.tableRange)
         // Reset the form fields
         setMessage('')
         setEmail('')
