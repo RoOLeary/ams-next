@@ -11,9 +11,10 @@ interface ISched {
     price?: any,
     location?: string, 
     slug?: string
+    ticketLink?: string
 }
 
-const ScheduleSlot = ({ id, title, date, time, price, excerpt, detail, location, slug }:ISched ) => {
+const ScheduleSlot = ({ id, title, date, time, price, ticketLink, excerpt, detail, location, slug }:ISched ) => {
     
     return(
        
@@ -22,7 +23,7 @@ const ScheduleSlot = ({ id, title, date, time, price, excerpt, detail, location,
                 <span className="font-semibold title-font text-white-700">{location}</span>
                 <span className="mt-1 text-white-500 text-sm">{date}</span>
                 <span className="mt-1 text-white-500 text-sm">{time}</span>
-                <span className="mt-1 text-white-500 text-sm">{price == "free" && "Free"}</span>
+                <span className="mt-1 text-white-500 text-sm">{price == "free" ? "Free" : price}</span>
                 
             </div>
             <div className="md:flex-grow">
@@ -30,6 +31,12 @@ const ScheduleSlot = ({ id, title, date, time, price, excerpt, detail, location,
             <h2 className="text-2xl font-medium gold title-font mb-2">{title}</h2>
 
             <p className="leading-relaxed">{excerpt}</p>
+            {ticketLink ? 
+                ticketLink.includes("@") ?
+                <div>Click <a href={`mailto:${ticketLink}`} target="_blank">here</a> to get seats.</div>  
+                :      
+                <div>Click <a href={`${ticketLink}`} target="_blank">here</a> to get seats.</div>        
+            : ""}
             {/* <Link href={`schedule/event/${slug}`}>
                 <a className="gold inline-flex items-center mt-4">More Info
                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
