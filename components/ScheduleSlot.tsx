@@ -33,9 +33,9 @@ const ScheduleSlot = ({ id, title, date, time, price, ticketLink, excerpt, detai
             <p className="leading-relaxed">{excerpt}</p>
             {ticketLink ? 
                 ticketLink.includes("@") ?
-                <div>Click <a href={`mailto:${ticketLink}`} target="_blank">here</a> to get seats.</div>  
+                <div>Click <a href={`mailto:${ticketLink}`} target="_blank" rel="noreferrer">here</a> to get seats.</div>  
                 :      
-                <div>Click <a href={`${ticketLink}`} target="_blank">here</a> to get seats.</div>        
+                <div>Click <a href={`${ticketLink}`} target="_blank" rel="noreferrer">here</a> to get seats.</div>        
             : ""}
             {/* <Link href={`schedule/event/${slug}`}>
                 <a className="gold inline-flex items-center mt-4">More Info
