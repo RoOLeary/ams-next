@@ -19,7 +19,7 @@ const Schedule = (props) => {
             "id": 2,
             "category": "Piano",
             "date": "05-10-22",
-            "time": "21:00",
+            "time": "19:00",
             "price": "€10",
             "ticketLink": "https://www.bol.pt/Comprar/Bilhetes/113716/1137973/Sectores",
             "title":  "Chopin Piano Concerto no. 1, Congyu Wang",
