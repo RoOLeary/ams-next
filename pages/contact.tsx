@@ -53,11 +53,11 @@ const Contact: NextPage = () => {
                     <form className="py-4 space-y-4" onSubmit={handleSubmit}>
                         <div className="relative mb-4">
                             <label htmlFor="email" className="leading-7 text-sm text-black">Email</label>
-                            <input type="email" id="email" name="email" value={email} onChange={e => setEmail(e.target.value)} className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-white-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+                            <input type="email" id="email" name="email" value={email} onChange={e => setEmail(e.target.value)} className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-white-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
                         </div>
                         <div className="relative mb-4">
                             <label htmlFor="message" className="leading-7 text-sm text-black">Message</label>
-                            <textarea value={message} onChange={e => setMessage(e.target.value)} id="message" name="message" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-white-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                            <textarea value={message} onChange={e => setMessage(e.target.value)} id="message" name="message" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-white-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" required></textarea>
                         </div>
                         <button className="text-white bg-goldenrod border-0 py-2 px-6 focus:outline-none hover:bg-goldenrod rounded text-lg hover:bg-gray-100 hover:text-black">Button</button>
                         <p className="text-xs text-white-500 mt-3">We will not pass your data to third parties.</p>
