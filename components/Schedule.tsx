@@ -112,11 +112,11 @@ const Schedule = (props) => {
             "time": "21:00",
             "price": "€10 / €8 - members",
             "ticketLink": "clubfarense@gmail.com",
-            "title":  "Piano Recital - Heribert Koch",
-            "excerpt": "Music by Bach, Beethoven and Brahms",
-            "detail": "Music by Bach, Beethoven and Brahms",
+            "title":  "Piano Recital - Zoran Imširović",
+            "excerpt": "Music by Schumann, Liszt and Scriabin",
+            "detail": "Music by Schumann, Liszt and Scriabin",
             "location": "Club Farense, Faro",
-            "slug": 'heribert-koch'
+            "slug": 'zoran-imsirovic'
         }
 
     ]
