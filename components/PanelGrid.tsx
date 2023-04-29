@@ -86,7 +86,7 @@ const PanelGrid = ({ panelGridTitle }: IPanel ) => {
             height={100}
           />
        </a>
-       <a href="https://www.moggiofoundation.org" target="_blank" rel="noreferrer">
+       <a href="#" target="_blank" rel="noreferrer">
        <img
 
             className="col-span-2 w-full object-contain lg:col-span-1"
