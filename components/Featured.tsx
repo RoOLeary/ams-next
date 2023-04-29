@@ -36,7 +36,7 @@ const Featured = ({ featuredTitle, featuredContent }: Featured): JSX.Element => 
                     <div className="h-64 overflow-hidden">
                         <Image loader={imageLoader} alt="content" className="object-cover object-center h-full w-full" src="./../assets/images/concerto.jpeg" width={600} height={400} />
                     </div>
-                    <h2 className="text-xl font-medium title-font gold mt-5">Piano Concerto Festival</h2>
+                    <h2 className="text-xl font-medium title-font gold mt-5"><a href="https://www.pianoconcertofestival.com" target="_blank" rel="noreferrer">Piano Concerto Festival</a></h2>
                     <h3 className="text-base leading-relaxed gold">Faro</h3>
                     <p className="text-base leading-relaxed mt-2">3-9 July 2023</p>
                    
