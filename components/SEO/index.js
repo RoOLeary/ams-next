@@ -58,13 +58,12 @@ const socialTags = ({
 
 const SEO = (props) => {
   const { url, title, description, image } = props;
-
   
   return (
     <>
-      <meta itemProp="name" content={title} />
-      <meta itemProp="description" content={description} />
-      <meta itemProp="image" content={image} />
+      <meta itemProp="name" content={'Algarve Music Series | October 2023'} />
+      <meta itemProp="description" content={'8th Edition | October 2023'} />
+      <meta itemProp="image" content={'https://algarvemusicseries.com/assets/images/ams-home3.jpegs'} />
       {socialTags(props).map(({ name, content }) => {
         return <meta key={name} name={name} content={content} />;
       })}

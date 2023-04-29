@@ -1,11 +1,11 @@
 const settings = {
     meta: {
-      rootUrl: "https://ams-next.vercel.app",
-      title: "App",
-      description: "The app description goes here.",
+      rootUrl: "https://algarvemusicseries.com",
+      title: "Algarve Music Series",
+      description: "8th Edition | October 2023",
       social: {
         graphic:
-          "https://cheatcode-assets.s3.amazonaws.com/default-social-graphic.png",
+          "https://algarvemusicseries.com/algarvemusicseries.jpeg",
         twitter: "@algarvemusicseries",
       },
     },
