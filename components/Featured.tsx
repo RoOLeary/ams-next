@@ -49,7 +49,7 @@ const Featured = ({ featuredTitle, featuredContent }: Featured): JSX.Element => 
                         <Image loader={imageLoader} alt="content" className="object-cover object-center h-full w-full" src="./../assets/images/ams23.jpeg" width={600} height={400} />
                     </div>
                     <h2 className="text-xl font-medium title-font gold mt-5">Algarve Music Series</h2>
-                    <h3 className="text-base leading-relaxed mt-2">Faro, Algarve</h3>
+                    <h3 className="text-base leading-relaxed mt-2 gold">Faro, Algarve</h3>
                     <p className="text-base leading-relaxed mt-2">October 2023</p>
                     <p className="text-base leading-relaxed mt-2">
                         During the month of October expect beautiful music played by excellent ensembles in Faro and surroundings, in the most inspiring locations. Details on the schedule coming up very soon!
