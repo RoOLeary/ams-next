@@ -4,11 +4,14 @@ import { motion, AnimatePresence } from 'framer-motion'
 interface IHomeHeader {   
     title?: string
     editionDetails?: string
+    comingSoon?: string
 }
   
 
 
-const HomeHeader = ({ title, editionDetails }: IHomeHeader): JSX.Element => {
+const HomeHeader = ({ title, editionDetails, comingSoon }: IHomeHeader): JSX.Element => {
+
+    console.log(title); 
 
     return(
         <AnimatePresence>
@@ -20,6 +23,8 @@ const HomeHeader = ({ title, editionDetails }: IHomeHeader): JSX.Element => {
             >
                 <h1 className="generalPageTitle text-center">{title}</h1>
                 <h2 className="text-center text-2xl">{editionDetails}</h2>
+                <br />
+                <h3 className="text-center text-3xl">{comingSoon}</h3>
             </motion.div>
         </AnimatePresence>
     );

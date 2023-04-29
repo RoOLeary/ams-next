@@ -20,7 +20,7 @@ const Layout = ({ children, description }: Props): JSX.Element => (
         
         <>  
             <Head>
-                <title>Algarve Music Series | October 2022</title>
+                <title>Algarve Music Series | October 2023</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <SEO />
             </Head>

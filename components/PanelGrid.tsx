@@ -7,105 +7,85 @@ interface IPanel {
 
 const PanelGrid = ({ panelGridTitle }: IPanel ) => {
     return(
-        <section className="text-white-600 body-font">
-            <div className="container px-5 pb-24 mx-auto">
-                <div className="flex flex-col text-center w-full mb-20">
-                <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">{panelGridTitle}</h1>
-                <p className="lg:w-2/3 mx-auto leading-relaxed text-gray-400 text-base"></p>
-                </div>
-                <div className="flex flex-wrap -m-4">
-                    <div className="lg:w-1/3 sm:w-1/2 p-2">
-                        <div className="flex relative">
-                            <Image loader={imageLoader} alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://source.unsplash.com/600x450/?faro" layout="fill"  />
-                            <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 transition-opacity hover:cursor-pointer">
-                                <h2 className="tracking-widest text-sm title-font font-medium gold mb-1">REGION</h2>
-                                <h1 className="title-font text-lg font-medium text-black mb-3">Faro</h1>
-                                <p className="leading-relaxed text-gray-400">Faro is a municipality, the southernmost city and capital of the district of the same name in Algarve, Portugal.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="lg:w-1/3 sm:w-1/2 p-2">
-                        <div className="flex relative">
-                            <Image loader={imageLoader} alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://source.unsplash.com/600x450/?violin" layout="fill"  />
-                            <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 transition-opacity hover:cursor-pointer">
-                                <h2 className="tracking-widest text-sm title-font font-medium gold mb-1">THE SUBTITLE</h2>
-                                <h1 className="title-font text-lg font-medium text-black mb-3">The Catalyzer</h1>
-                                <p className="leading-relaxed text-gray-400">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="lg:w-1/3 sm:w-1/2 p-2">
-                        <div className="flex relative">
-                            <Image loader={imageLoader} alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://source.unsplash.com/600x450/?viola" layout="fill"  />
-                            <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 transition-opacity hover:cursor-pointer">
-                                <h2 className="tracking-widest text-sm title-font font-medium gold mb-1">THE SUBTITLE</h2>
-                                <h1 className="title-font text-lg font-medium text-black mb-3">The 400 Blows</h1>
-                                <p className="leading-relaxed text-gray-400">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="lg:w-1/3 sm:w-1/2 p-2">
-                        <div className="flex relative">
-                            <Image loader={imageLoader} alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://source.unsplash.com/600x450/?flute" layout="fill"  />
-                            <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 transition-opacity hover:cursor-pointer">
-                                <h2 className="tracking-widest text-sm title-font font-medium gold mb-1">THE SUBTITLE</h2>
-                                <h1 className="title-font text-lg font-medium text-black mb-3">Neptune</h1>
-                                <p className="leading-relaxed text-gray-400">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="lg:w-1/3 sm:w-1/2 p-2">
-                        <div className="flex relative">
-                            <Image loader={imageLoader} alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://source.unsplash.com/600x450/?orchestra" layout="fill"  />
-                            <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 transition-opacity hover:cursor-pointer">
-                                <h2 className="tracking-widest text-sm title-font font-medium gold mb-1">THE SUBTITLE</h2>
-                                <h1 className="title-font text-lg font-medium text-black mb-3">Holden Caulfield</h1>
-                                <p className="leading-relaxed text-gray-400">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="lg:w-1/3 sm:w-1/2 p-2">
-                        <div className="flex relative">
-                            <Image loader={imageLoader} alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://source.unsplash.com/600x450/?clarinet" layout="fill"  />
-                            <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 transition-opacity hover:cursor-pointer">
-                                <h2 className="tracking-widest text-sm title-font font-medium gold mb-1">THE SUBTITLE</h2>
-                                <h1 className="title-font text-lg font-medium text-black mb-3">Alper Kamu</h1>
-                                <p className="leading-relaxed text-gray-400">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="lg:w-1/3 sm:w-1/2 p-2">
-                        <div className="flex relative">
-                            <Image loader={imageLoader} alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://source.unsplash.com/600x450/?flute" layout="fill"  />
-                            <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 transition-opacity hover:cursor-pointer">
-                                <h2 className="tracking-widest text-sm title-font font-medium gold mb-1">THE SUBTITLE</h2>
-                                <h1 className="title-font text-lg font-medium text-black mb-3">Neptune</h1>
-                                <p className="leading-relaxed text-gray-400">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="lg:w-1/3 sm:w-1/2 p-2">
-                        <div className="flex relative">
-                            <Image loader={imageLoader} alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://source.unsplash.com/600x450/?harp" layout="fill"  />
-                            <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 transition-opacity hover:cursor-pointer">
-                                <h2 className="tracking-widest text-sm title-font font-medium gold mb-1">THE SUBTITLE</h2>
-                                <h1 className="title-font text-lg font-medium text-black mb-3">Holden Caulfield</h1>
-                                <p className="leading-relaxed text-gray-400">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="lg:w-1/3 sm:w-1/2 p-2">
-                        <div className="flex relative">
-                            <Image loader={imageLoader} alt="gallery" className="absolute inset-0 w-full h-full object-cover object-center" src="https://source.unsplash.com/600x450/?viola" layout="fill"  />
-                            <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100 transition-opacity hover:cursor-pointer">
-                                <h2 className="tracking-widest text-sm title-font font-medium gold mb-1">THE SUBTITLE</h2>
-                                <h1 className="title-font text-lg font-medium text-black mb-3">Alper Kamu</h1>
-                                <p className="leading-relaxed text-gray-400">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+   
+
+<section className="text-white-600 body-font">
+
+    <div className="bg-white py-10 sm:py-32">
+    <div className="container px-5 pb-10 mx-auto">
+          <h1 className="generalPageTitle">Sponsors 2023</h1>
+          <div className="h-1 overflow-hidden pb-2">
+              <div className="h-1 w-20 bg-goldenrod"></div>
+          </div>
+      </div>
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+            <img
+                className="col-span-2 w-full object-contain lg:col-span-1"
+                src="../assets/images/egide.jpeg"
+                alt="Reform"
+                width={300}
+                height={150}
+            />
+          <img
+            className="col-span-2 w-full object-contain lg:col-span-1"
+            src="../assets/images/figuras.png"
+            alt="Transistor"
+            width={300}
+            height={150}
+          />
+          <img
+            className="col-span-2 w-full object-contain lg:col-span-1"
+            src="../assets/images/faro-muno.png"
+            alt="Reform"
+            width={300}
+            height={150}
+          />
+          <img
+            className="col-span-2 w-full object-contain lg:col-span-1"
+            src="../assets/images/loule.jpeg"
+            alt="Reform"
+            width={300}
+            height={150}
+          />
+         
+         <img
+            className="col-span-2 w-full object-contain lg:col-span-1"
+            src="../assets/images/portugal.jpeg"
+            alt="Reform"
+            width={300}
+            height={150}
+          />
+
+        <img
+            className="col-span-2 w-full object-contain lg:col-span-1"
+            src="../assets/images/piano.jpeg"
+            alt="Reform"
+            width={300}
+            height={150}
+          />
+
+        <img
+            className="col-span-2 w-full object-contain lg:col-span-1"
+            src="../assets/images/ammf.jpeg"
+            alt="Reform"
+            width={200}
+            height={100}
+          />
+       <img
+            className="col-span-2 w-full object-contain lg:col-span-1"
+            src="../assets/images/kenke.png"
+            alt="Reform"
+            width={300}
+            height={150}
+          />
+        
+        
+        </div>
+      </div>
+    </div>
+
+
         </section>
 
     )

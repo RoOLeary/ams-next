@@ -9,7 +9,7 @@ const Footer = () => {
             <Link href={'/'}><a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
                 <Image loader={imageLoader} alt="AMS Logo - Footer" src="/assets/images/algarvemusicseries.jpeg" height={50} width={50} />
                 </a></Link>
-                <p className="text-sm text-white-500 sm:ml-4 sm:pl-4 sm:py-2 sm:mt-0 mt-4">© 2022 Algarve Music Series —
+                <p className="text-sm text-white-500 sm:ml-4 sm:pl-4 sm:py-2 sm:mt-0 mt-4">© 2023 Algarve Music Series —
                 <a href="https://twitter.com/algarvemusicseries" className="text-white-600 ml-1" rel="noopener noreferrer" target="_blank">@algarvemusicseries</a>
                 </p>
                 <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
